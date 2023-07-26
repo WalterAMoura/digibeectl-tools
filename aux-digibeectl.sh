@@ -10,7 +10,7 @@
 
 # Dados de usuário
 USERACTUAL=$(grep $EUID /etc/group | awk -F ":" '{print $1}')
-PATH_USER="/home/$USERACTUAL/Documentos/digibee/digibeectl"
+PATH_USER="/home/$USERACTUAL/Documentos/digibeectl"
 PATH_BKP="$PATH_USER/backup"
 PATH_LOG="$PATH_USER/log"
 
