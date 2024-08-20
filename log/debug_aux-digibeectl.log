@@ -1,79 +1,249 @@
-+ . /home/walter/Documentos/digibeectl/config.conf
++ . /Users/walte/Documents/Digibee/digibeectl-tools/config.conf
 ++ PIPELINES=deploy-onboarding.csv
-++ REALM=n26
+++ REALM=lugardegente
+++ SYDB=sqlite3
 ++ MYSQL_HOST=localhost
 ++ MYSQL_USER=digibeectl
 ++ MYSQL_PASS=digibeectl
 ++ MYSQL_BD=digibeectl
-+ FUNC=
-+ VAR_1=
++ FUNC=--find-text
++ VAR_1=--text=poc-bv-baixa-titulos-controle-duplicidade
 + case $FUNC in
++ '[' -z --text=poc-bv-baixa-titulos-controle-duplicidade ']'
+++ echo --text=poc-bv-baixa-titulos-controle-duplicidade
+++ awk -F = '{print $2}'
++ var=poc-bv-baixa-titulos-controle-duplicidade
++ '[' -z poc-bv-baixa-titulos-controle-duplicidade ']'
++ labelText=poc-bv-baixa-titulos-controle-duplicidade
 ++ date +%Y%m%d-%H%M%S.%s
-+ echo '20230726-112603.1690381563:MAIN:Opção escolhida: .'
++ echo '20240820-183012.1724189412:MAIN:Iniciando processo de busca da global: [].'
+++ seq -s - 134
+++ tr -d '[:digit:]'
++ printf '\n\n%s\n' --------------------------------------------------------------------------------------------------------------------------------------
++ printf '%s\n' 'BUSCANDO TEXTO: poc-bv-baixa-titulos-controle-duplicidade'
+++ seq -s - 134
+++ tr -d '[:digit:]'
++ printf '%s\n' --------------------------------------------------------------------------------------------------------------------------------------
++ find_text
 ++ date +%Y%m%d-%H%M%S.%s
-+ echo '20230726-112603.1690381563:MAIN:Chamando a função -> help().'
-+ help
-++ date +%Y%m%d-%H:%M:%S.%s
-+ echo '20230726-11:26:03.1690381563:fnHelp:Start function fnHelp'
-aux-digibeectl.sh: linha 854: $log: redirecionamento ambíguo
-+ echo -e '\033[01;33m'
-+ echo '# USE ./aux-digibeectl.sh <param1> <param2> ....... '
-+ echo ''
-+ echo ''
-+ echo '# Parametros de uso:'
-+ echo ''
-+ echo '# --menu'
-+ echo '#   Abrir menu com as opções de uso'
-+ echo ''
-+ echo '# --list-pipelines'
-+ echo '#   Lista os pipelines existentes nos realms'
-+ echo ''
-+ echo '# --list-deploys'
-+ echo '#   Busca os pipelines deployados no ambiente'
-+ echo '#   Paramentros opcionais:'
-+ echo '#   --environment'
-+ echo '#   --environment=test ou --environment=prod, Default=test'
-+ echo ''
-+ echo '# --search-global'
-+ echo '#   Busca uma determinada glabal no realm'
-+ echo '#   Paramentros opcionais:'
-+ echo '#   --global'
-+ echo '#   --global=valor'
-+ echo '#   Obs.: Caso não informe o paramentro, será buscado as globals dentro do arquivo [global.txt], neste caso pode ser multiplas globals'
-+ echo ''
-+ echo '# --search-capsule'
-+ echo '#   Busca uma determinada capsula no realm'
-+ echo '#   Paramentros opcionais:'
-+ echo '#   --capsule'
-+ echo '#   --capulse=capsule-name'
-+ echo '#   Obs.: Caso não informe o paramentro, será buscado as globals dentro do arquivo [capsules.txt], neste caso pode ser usado multiplas capsulas'
-+ echo ''
-+ echo '# --search-account'
-+ echo '#   Busca uma determinado account no realm'
-+ echo '#   Paramentros opcionais:'
-+ echo '#   --account'
-+ echo '#   --account=capsule-name'
-+ echo '#   Obs.: Caso não informe o paramentro, será buscado as globals dentro do arquivo [capsules.txt], neste caso pode ser usado multiplas capsulas'
-+ echo ''
-+ echo '# --deploy'
-+ echo '#   Realiza o deploy/re-deploy dos pipeline existentes no arquivo [pipelines-deploys.csv]'
-+ echo ''
-+ echo '# --delete-deploy'
-+ echo '#   Remove deploys dos pipelines existentes no arquivo [pipelines-remove.csv]'
-+ echo ''
-+ echo '# --find-text'
-+ echo '#   Busca um texto especifico nos pipelines'
-+ echo '#   Paramentros obrigatórios:'
-+ echo '#   --text=valor'
-+ echo ''
-+ echo ''
-+ echo '# --get-config'
-+ echo '#   Exibe as informações de configurações atuais do digibeectl e informações do realm'
-+ echo ''
-+ echo '# --set-config'
-+ echo '#   Paramentros opcionais:'
-+ echo '#   --realm={nomeDoRealm}'
-+ echo '#   Aplica as configurações de ambiente que estão parametrizadas no arquivo [config.conf]'
-+ echo ''
-+ echo -e '\033[00;37m'
-+ exit 1
++ echo 20240820-183012.1724189412:FIND_TEXT:
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:FIND_TEXT:Iniciando função.'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:FIND_TEXT:Verifica se precisa chamar a função list_pipelines().'
++ '[' 0 -eq 0 ']'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:FIND_GLOBAL:Chamando a função -> list_pipelines().'
++ list_pipelines
+++ date +%Y%m%d-%H%M%S.%s
++ echo 20240820-183012.1724189412:LIST_PIPELINES:
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:LIST_PIPELINES:Iniciando função.'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.'
++ '[' -e /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt ']'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:LIST_PIPELINES:Excluindo arquivo.'
++ rm /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt
++ RET=0
++ '[' 0 -eq 0 ']'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:LIST_PIPELINES:Arquivo excluido com sucesso.'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.'
++ '[' -e /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt ']'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:LIST_PIPELINES:Excluindo arquivo.'
++ rm /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt
++ RET=0
++ '[' 0 -eq 0 ']'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:LIST_PIPELINES:Arquivo excluido com sucesso.'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183012.1724189412:LIST_PIPELINES:GET dados de paginação.'
+++ digibeectl get pipelines
+++ grep page
+++ cut -d - -f2
+++ sed -e s/of/-/g
+++ sed -e s/page//g
+++ cut -d - -f 1
++ currentPage=
+++ digibeectl get pipelines
+++ grep page
+++ cut -d - -f2
+++ sed -e s/of/-/g
+++ sed -e s/page//g
+++ cut -d - -f 2
++ totalPages=
++ '[' -z ']'
++ currentPage=1
++ '[' -z ']'
++ totalPages=1
+++ printf %d 1
++ totalPages=1
+++ printf %d 1
++ currentPage=1
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183014.1724189414:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.'
++ printf '\n'
++ x=0
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183014.1724189414:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.'
++ true
++ '[' 0 -lt 1 ']'
++ echo -e '\033[01;33m[ CONSULTANDO PAGINAS - 1 de 1 ]\033[00;37m'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183015.1724189415:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].'
++ '[' 0 -eq 0 ']'
++ digibeectl get pipelines --page 1
+++ cat /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt
+++ wc -l
++ n='      13'
++ cat /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt
++ grep PIPELINE-ID -A11
++ sed 1d
++ let 'x = x +1'
++ true
++ '[' 1 -lt 1 ']'
++ break
++ grep -v '^[\s\t]*$' /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt
++ cp /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt
+++ cat /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt
+++ wc -l
++ TOTAL_LIST_PIPELINES='      11'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183016.1724189416:LIST_PIPELINES:       11'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183016.1724189416:LIST_PIPELINES:Função finalizada.'
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 10
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
++ printf '%s|%s|%s|%s\n' ---------------------------------------- ---------------------------------------- ---------- ----------------------------------------
++ printf '%-40s|%-40s|%-10s|%s\n' NAME PIPELINE-ID VERSION ARCHIVED
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 10
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
++ printf '%s|%s|%s|%s\n' ---------------------------------------- ---------------------------------------- ---------- ----------------------------------------
++ labelText=poc-bv-baixa-titulos-controle-duplicidade
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183016.1724189416:FIND_TEXT:Global a ser buscada: .'
++ x=0
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id 5d0a168e-902b-4835-b822-3771583f54cf --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       0'
++ '[' 0 -gt 0 ']'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id 136204b5-a4f8-4a14-9f03-6b302ddb55f5 --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       0'
++ '[' 0 -gt 0 ']'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28 --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       2'
++ '[' 2 -gt 0 ']'
++ printf '%-40s|%-40s|%-10s|%s\n' evt-bv-busca-titulos-baixados b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28 1.44 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' evt-bv-busca-titulos-baixados b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28 1.44 false
++ echo '20240820-183017.1724189417:FIND_TEXT:Pipeline encontrado: evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.'
++ let 'x = x +1'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id 0c2209f8-ca9a-4467-8646-09698a66c073 --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       2'
++ '[' 2 -gt 0 ']'
++ printf '%-40s|%-40s|%-10s|%s\n' evt-bv-notifica-parceiro 0c2209f8-ca9a-4467-8646-09698a66c073 1.7 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' evt-bv-notifica-parceiro 0c2209f8-ca9a-4467-8646-09698a66c073 1.7 false
++ echo '20240820-183017.1724189417:FIND_TEXT:Pipeline encontrado: evt-bv-notifica-parceiro|0c2209f8-ca9a-4467-8646-09698a66c073|1.7|false.'
++ let 'x = x +1'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id 7ebb3ed4-bf0e-4011-a90f-92bbb1295d5f --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       0'
++ '[' 0 -gt 0 ']'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id 32fc57cb-22f6-4959-a68c-e75e2d3b95cd --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       4'
++ '[' 4 -gt 0 ']'
++ printf '%-40s|%-40s|%-10s|%s\n' poc-bv-busca-titulos-baixados 32fc57cb-22f6-4959-a68c-e75e2d3b95cd 1.0 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' poc-bv-busca-titulos-baixados 32fc57cb-22f6-4959-a68c-e75e2d3b95cd 1.0 false
++ echo '20240820-183017.1724189417:FIND_TEXT:Pipeline encontrado: poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.'
++ let 'x = x +1'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id 4f68a548-4c33-4d65-8b0b-76fea8e55299 --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       0'
++ '[' 0 -gt 0 ']'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id 470dafd0-8d7c-48a3-90fb-af2a259e0337 --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       1'
++ '[' 1 -gt 0 ']'
++ printf '%-40s|%-40s|%-10s|%s\n' sch-bv-busca-clientes-notificacao 470dafd0-8d7c-48a3-90fb-af2a259e0337 1.17 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' sch-bv-busca-clientes-notificacao 470dafd0-8d7c-48a3-90fb-af2a259e0337 1.17 false
++ echo '20240820-183018.1724189418:FIND_TEXT:Pipeline encontrado: sch-bv-busca-clientes-notificacao|470dafd0-8d7c-48a3-90fb-af2a259e0337|1.17|false.'
++ let 'x = x +1'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id eb2efdbf-7af1-4b9d-a8dc-402865b31bd2 --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       0'
++ '[' 0 -gt 0 ']'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id 68082bb8-589f-4e87-8f56-0c08c4a87b8f --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       5'
++ '[' 5 -gt 0 ']'
++ printf '%-40s|%-40s|%-10s|%s\n' sch-bv-reporte 68082bb8-589f-4e87-8f56-0c08c4a87b8f 1.23 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' sch-bv-reporte 68082bb8-589f-4e87-8f56-0c08c4a87b8f 1.23 false
++ echo '20240820-183018.1724189418:FIND_TEXT:Pipeline encontrado: sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.'
++ let 'x = x +1'
++ read name pipelineId version archived
+++ digibeectl get pipelines --pipeline-id 59844375-c578-4e7d-9bee-747803318799 --flowspec
+++ grep -a poc-bv-baixa-titulos-controle-duplicidade -o
+++ wc -l
++ count='       0'
++ '[' 0 -gt 0 ']'
++ read name pipelineId version archived
+++ seq -s - 92
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
++ printf '%s|%s\n' -------------------------------------------------------------------------------------------- ----------------------------------------
++ printf '%-92s|%s\n' 'TOTAL ENCONTRADO' 5
+++ seq -s - 92
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
++ printf '%s|%s\n' -------------------------------------------------------------------------------------------- ----------------------------------------
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183018.1724189418:FIND_TEXT:Total encontrado: 5.'
+++ date +%Y%m%d-%H%M%S.%s
++ echo 20240820-183018.1724189418:FIND_TEXT:
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-183018.1724189418:FIND_TEXT:Função finalizada.'

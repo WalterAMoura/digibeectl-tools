@@ -14813,3 +14813,959 @@ n26       1e5abf9f-4596-4a4a-9a93-58368af0e5ae     n26             70          ]
 20230202-115728.1675349848:FIND_GLOBAL:Função finalizada.
 20230726-112603.1690381563:MAIN:Opção escolhida: .
 20230726-112603.1690381563:MAIN:Chamando a função -> help().
+20240710-131219.1720627939:MAIN:Opção escolhida: --get-config.
+20240710-131219.1720627939:MAIN:Chamando a função -> get_config().
+20240710-131219.1720627939:GET_CONFIG:
+20240710-131219.1720627939:GET_CONFIG:Iniciando função.
+20240710-131219.1720627939:GET_CONFIG:Carregando informações do digibeectl->[
+realm: 
+email: 
+endpoint: ].
+20240710-131219.1720627939:GET_CONFIG:Carregando informações do realm configurado->[
+Get "/design/realms/": unsupported protocol scheme ""
+REALM     REALM-ID     DESCRIPTION     LICENSE     
+                                       0           ].
+20240710-131220.1720627940:GET_CONFIG:
+20240710-131220.1720627940:GET_CONFIG:Função finalizada.
+20240710-131237.1720627957:MAIN:Opção escolhida: --set-config.
+20240710-131237.1720627957:MAIN:Chamando a função -> set_config().
+20240710-131237.1720627957:SET_CONFIG:
+20240710-131237.1720627957:SET_CONFIG:Iniciando função.
+20240710-131237.1720627957:SET_CONFIG:Consultados dados de configuração do realm -> lugardegente.
+20240710-131237.1720627957:SET_CONFIG:Erro ao buscar dados do realm no banco de dados: [lugardegente]->127.
+20240710-131237.1720627957:SET_CONFIG:
+20240710-131237.1720627957:SET_CONFIG:Função finalizada.
+20240710-142936.1720632576:MAIN:Opção escolhida: --get-config.
+20240710-142936.1720632576:MAIN:Chamando a função -> get_config().
+20240710-142937.1720632577:GET_CONFIG:
+20240710-142937.1720632577:GET_CONFIG:Iniciando função.
+20240710-142937.1720632577:GET_CONFIG:Carregando informações do digibeectl->[
+realm: 
+email: 
+endpoint: ].
+20240710-142937.1720632577:GET_CONFIG:Carregando informações do realm configurado->[
+Get "/design/realms/": unsupported protocol scheme ""
+REALM     REALM-ID     DESCRIPTION     LICENSE     
+                                       0           ].
+20240710-142938.1720632578:GET_CONFIG:
+20240710-142938.1720632578:GET_CONFIG:Função finalizada.
+20240710-142947.1720632587:MAIN:Opção escolhida: --set-config.
+20240710-142947.1720632587:MAIN:Chamando a função -> set_config().
+20240710-142947.1720632587:SET_CONFIG:
+20240710-142947.1720632587:SET_CONFIG:Iniciando função.
+20240710-142947.1720632587:SET_CONFIG:Consultados dados de configuração do realm -> lugardegente.
+20240710-142947.1720632587:SET_CONFIG:Erro ao buscar dados do realm no banco de dados: [lugardegente]->127.
+20240710-142947.1720632587:SET_CONFIG:
+20240710-142947.1720632587:SET_CONFIG:Função finalizada.
+20240710-143304.1720632784:MAIN:Opção escolhida: --set-config.
+20240710-143304.1720632784:MAIN:Chamando a função -> set_config().
+20240710-143304.1720632784:SET_CONFIG:
+20240710-143304.1720632784:SET_CONFIG:Iniciando função.
+20240710-143304.1720632784:SET_CONFIG:Consultados dados de configuração do realm -> lugardegente.
+20240710-143304.1720632784:SET_CONFIG:Erro ao buscar dados do realm no banco de dados: [lugardegente]->127.
+20240710-143304.1720632784:SET_CONFIG:
+20240710-143304.1720632784:SET_CONFIG:Função finalizada.
+20240710-144134.1720633294:MAIN:Opção escolhida: --set-config.
+20240710-144134.1720633294:MAIN:Chamando a função -> set_config().
+20240710-144134.1720633294:SET_CONFIG:
+20240710-144134.1720633294:SET_CONFIG:Iniciando função.
+20240710-144134.1720633294:SET_CONFIG:Consultados dados de configuração do realm -> lugardegente.
+20240710-144134.1720633294:SET_CONFIG:Erro ao buscar dados do realm no banco de dados: [lugardegente]->1.
+20240710-144134.1720633294:SET_CONFIG:
+20240710-144134.1720633294:SET_CONFIG:Função finalizada.
+20240710-150800.1720634880:MAIN:Opção escolhida: --set-config.
+20240710-150800.1720634880:MAIN:Chamando a função -> set_config().
+20240710-150800.1720634880:SET_CONFIG:
+20240710-150800.1720634880:SET_CONFIG:Iniciando função.
+20240710-150800.1720634880:SET_CONFIG:Consultados dados de configuração do realm -> lugardegente.
+20240710-150800.1720634880:SET_CONFIG:Setando configurações lugardegente.
+20240710-150800.1720634880:SET_CONFIG:Erro ao configurar ambiente: [lugardegente].
+20240710-150800.1720634880:SET_CONFIG:
+20240710-150800.1720634880:SET_CONFIG:Função finalizada.
+20240710-151048.1720635048:MAIN:Opção escolhida: --set-config.
+20240710-151048.1720635048:MAIN:Chamando a função -> set_config().
+20240710-151048.1720635048:SET_CONFIG:
+20240710-151048.1720635048:SET_CONFIG:Iniciando função.
+20240710-151048.1720635048:SET_CONFIG:Consultados dados de configuração do realm -> lugardegente.
+20240710-151048.1720635048:SET_CONFIG:Setando configurações lugardegente.
+20240710-151048.1720635048:SET_CONFIG:Ambiente configurado com sucesso: [lugardegente].
+20240710-151048.1720635048:SET_CONFIG:
+20240710-151048.1720635048:SET_CONFIG:Função finalizada.
+20240710-151057.1720635057:MAIN:Opção escolhida: --get-config.
+20240710-151057.1720635057:MAIN:Chamando a função -> get_config().
+20240710-151057.1720635057:GET_CONFIG:
+20240710-151058.1720635058:GET_CONFIG:Iniciando função.
+20240710-151058.1720635058:GET_CONFIG:Carregando informações do digibeectl->[
+realm: lugardegente
+email: walter.moura@digibee.com
+endpoint: https://core.godigibee.io:443].
+20240710-151058.1720635058:GET_CONFIG:Carregando informações do realm configurado->[
+REALM            REALM-ID                                 DESCRIPTION      LICENSE     
+lugardegente     671765fb-ae2a-4e5d-a4bc-5d44941cdb0b     lugardegente     10          ].
+20240710-151059.1720635059:GET_CONFIG:
+20240710-151059.1720635059:GET_CONFIG:Função finalizada.
+20240710-151108.1720635068:MAIN:Opção escolhida: .
+20240710-151108.1720635068:MAIN:Chamando a função -> help().
+20240710-151121.1720635081:MAIN:Opção escolhida: --list-pipelines.
+20240710-151121.1720635081:MAIN:Chamando a função -> read_list_pipelines().
+20240710-151121.1720635081:READ_LIST_PIPELINES:
+20240710-151121.1720635081:READ_LIST_PIPELINES:Iniciando função.
+20240710-151121.1720635081:READ_LIST_PIPELINES:Chamando a função -> list_pipelines().
+20240710-151121.1720635081:LIST_PIPELINES:
+20240710-151121.1720635081:LIST_PIPELINES:Iniciando função.
+20240710-151121.1720635081:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/digibee/digibeectl-tools/.listPipelines.txt.
+20240710-151121.1720635081:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/digibee/digibeectl-tools/.tempListPipelines.txt.
+20240710-151121.1720635081:LIST_PIPELINES:GET dados de paginação.
+20240710-151154.1720635114:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240710-151154.1720635114:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240710-151154.1720635114:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240710-151204.1720635124:LIST_PIPELINES:        6
+20240710-151204.1720635124:LIST_PIPELINES:Função finalizada.
+20240710-151204.1720635124:READ_LIST_PIPELINES:Exibir na tela lista de pipelines.
+20240710-151204.1720635124:READ_LIST_PIPELINES:api-lg-custom|d1eb16c6-7176-44fb-b799-87e4aef7a299|1.2|false.
+20240710-151204.1720635124:READ_LIST_PIPELINES:api-lg-custom|260b1f3c-2bb9-46fe-bab5-ac162ff754d0|2.3|false.
+20240710-151204.1720635124:READ_LIST_PIPELINES:evt-lg-geracao-arquivo-contabil|e5a842fe-273d-4d5f-a7d7-668b11c348c5|1.3|false.
+20240710-151204.1720635124:READ_LIST_PIPELINES:evt-lg-geracao-arquivo-contabil|e11b5894-fa75-44d7-b357-2f4920c0c5ea|2.5|false.
+20240710-151204.1720635124:READ_LIST_PIPELINES:learn-basic-course|e8766f85-58b7-4cda-bfdd-0f037821dc1e|1.0|false.
+20240710-151204.1720635124:READ_LIST_PIPELINES:sch-lg-geracao-arquivo-contabil|37a9cdfc-bd55-4dad-93c7-da91b4101ed5|1.2|false.
+20240710-151204.1720635124:READ_LIST_PIPELINES:
+20240710-151204.1720635124:READ_LIST_PIPELINES:Função finalizada.
+20240710-151230.1720635150:MAIN:Opção escolhida: --list-pipelines.
+20240710-151230.1720635150:MAIN:Chamando a função -> read_list_pipelines().
+20240710-151230.1720635150:READ_LIST_PIPELINES:
+20240710-151231.1720635151:READ_LIST_PIPELINES:Iniciando função.
+20240710-151231.1720635151:READ_LIST_PIPELINES:Chamando a função -> list_pipelines().
+20240710-151231.1720635151:LIST_PIPELINES:
+20240710-151231.1720635151:LIST_PIPELINES:Iniciando função.
+20240710-151231.1720635151:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/digibee/digibeectl-tools/.listPipelines.txt.
+20240710-151231.1720635151:LIST_PIPELINES:Excluindo arquivo.
+20240710-151231.1720635151:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240710-151231.1720635151:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/digibee/digibeectl-tools/.tempListPipelines.txt.
+20240710-151231.1720635151:LIST_PIPELINES:Excluindo arquivo.
+20240710-151231.1720635151:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240710-151231.1720635151:LIST_PIPELINES:GET dados de paginação.
+20240710-151244.1720635164:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240710-151244.1720635164:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240710-151244.1720635164:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240710-151249.1720635169:LIST_PIPELINES:        6
+20240710-151249.1720635169:LIST_PIPELINES:Função finalizada.
+20240710-151249.1720635169:READ_LIST_PIPELINES:Exibir na tela lista de pipelines.
+20240710-151249.1720635169:READ_LIST_PIPELINES:api-lg-custom|d1eb16c6-7176-44fb-b799-87e4aef7a299|1.2|false.
+20240710-151249.1720635169:READ_LIST_PIPELINES:api-lg-custom|260b1f3c-2bb9-46fe-bab5-ac162ff754d0|2.3|false.
+20240710-151249.1720635169:READ_LIST_PIPELINES:evt-lg-geracao-arquivo-contabil|e5a842fe-273d-4d5f-a7d7-668b11c348c5|1.3|false.
+20240710-151249.1720635169:READ_LIST_PIPELINES:evt-lg-geracao-arquivo-contabil|e11b5894-fa75-44d7-b357-2f4920c0c5ea|2.5|false.
+20240710-151249.1720635169:READ_LIST_PIPELINES:learn-basic-course|e8766f85-58b7-4cda-bfdd-0f037821dc1e|1.0|false.
+20240710-151249.1720635169:READ_LIST_PIPELINES:sch-lg-geracao-arquivo-contabil|37a9cdfc-bd55-4dad-93c7-da91b4101ed5|1.2|false.
+20240710-151249.1720635169:READ_LIST_PIPELINES:
+20240710-151249.1720635169:READ_LIST_PIPELINES:Função finalizada.
+20240710-151641.1720635401:MAIN:Opção escolhida: menu.
+20240710-151641.1720635401:MAIN:Chamando a função -> help().
+20240710-151648.1720635408:MAIN:Iniciando função.
+20240710-151648.1720635408:MAIN:Listando opções.
+20240710-151655.1720635415:MAIN:Opção escolhida: 97.
+20240710-151655.1720635415:MAIN:Chamando a função -> get_config().
+20240710-151655.1720635415:GET_CONFIG:
+20240710-151655.1720635415:GET_CONFIG:Iniciando função.
+20240710-151655.1720635415:GET_CONFIG:Carregando informações do digibeectl->[
+realm: lugardegente
+email: walter.moura@digibee.com
+endpoint: https://core.godigibee.io:443].
+20240710-151655.1720635415:GET_CONFIG:Carregando informações do realm configurado->[
+REALM            REALM-ID                                 DESCRIPTION      LICENSE     
+lugardegente     671765fb-ae2a-4e5d-a4bc-5d44941cdb0b     lugardegente     10          ].
+20240710-151656.1720635416:GET_CONFIG:
+20240710-151656.1720635416:GET_CONFIG:Função finalizada.
+20240724-164701.1721850421:MAIN:Opção escolhida: --get-config.
+20240724-164701.1721850421:MAIN:Chamando a função -> get_config().
+20240724-164702.1721850422:GET_CONFIG:
+20240724-164702.1721850422:GET_CONFIG:Iniciando função.
+20240724-164702.1721850422:GET_CONFIG:Carregando informações do digibeectl->[
+realm: lugardegente
+email: walter.moura@digibee.com
+endpoint: https://core.godigibee.io:443].
+20240724-164703.1721850423:GET_CONFIG:Carregando informações do realm configurado->[
+REALM            REALM-ID                                 DESCRIPTION      LICENSE     
+lugardegente     671765fb-ae2a-4e5d-a4bc-5d44941cdb0b     lugardegente     20          ].
+20240724-164705.1721850425:GET_CONFIG:
+20240724-164705.1721850425:GET_CONFIG:Função finalizada.
+20240725-111146.1721916706:MAIN:Opção escolhida: --get-config.
+20240725-111146.1721916706:MAIN:Chamando a função -> get_config().
+20240725-111146.1721916706:GET_CONFIG:
+20240725-111147.1721916707:GET_CONFIG:Iniciando função.
+20240725-111147.1721916707:GET_CONFIG:Carregando informações do digibeectl->[
+realm: lugardegente
+email: walter.moura@digibee.com
+endpoint: https://core.godigibee.io:443].
+20240725-111147.1721916707:GET_CONFIG:Carregando informações do realm configurado->[
+REALM            REALM-ID                                 DESCRIPTION      LICENSE     
+lugardegente     671765fb-ae2a-4e5d-a4bc-5d44941cdb0b     lugardegente     20          ].
+20240725-111148.1721916708:GET_CONFIG:
+20240725-111148.1721916708:GET_CONFIG:Função finalizada.
+20240729-104658.1722260818:MAIN:Opção escolhida: --set-config.
+20240729-104658.1722260818:MAIN:Chamando a função -> set_config().
+20240729-104658.1722260818:SET_CONFIG:
+20240729-104658.1722260818:SET_CONFIG:Iniciando função.
+20240729-104658.1722260818:SET_CONFIG:Consultados dados de configuração do realm -> amedigital.
+20240729-104659.1722260819:SET_CONFIG:Setando configurações .
+20240729-104659.1722260819:SET_CONFIG:Erro ao configurar ambiente: [].
+20240729-104659.1722260819:SET_CONFIG:
+20240729-104659.1722260819:SET_CONFIG:Função finalizada.
+20240729-105058.1722261058:MAIN:Opção escolhida: --set-config.
+20240729-105058.1722261058:MAIN:Chamando a função -> set_config().
+20240729-105058.1722261058:SET_CONFIG:
+20240729-105058.1722261058:SET_CONFIG:Iniciando função.
+20240729-105058.1722261058:SET_CONFIG:Consultados dados de configuração do realm -> amedigital.
+20240729-105058.1722261058:SET_CONFIG:Setando configurações amedigital.
+20240729-105058.1722261058:SET_CONFIG:Ambiente configurado com sucesso: [amedigital].
+20240729-105058.1722261058:SET_CONFIG:
+20240729-105059.1722261059:SET_CONFIG:Função finalizada.
+20240729-105108.1722261068:MAIN:Opção escolhida: --get-config.
+20240729-105108.1722261068:MAIN:Chamando a função -> get_config().
+20240729-105108.1722261068:GET_CONFIG:
+20240729-105108.1722261068:GET_CONFIG:Iniciando função.
+20240729-105108.1722261068:GET_CONFIG:Carregando informações do digibeectl->[
+realm: amedigital
+email: walter.moura@digibee.com
+endpoint: https://core.godigibee.io:443].
+20240729-105108.1722261068:GET_CONFIG:Carregando informações do realm configurado->[
+Your credentials appear to be invalid, you are not authorized to run, please check your secret file.
+REALM     REALM-ID     DESCRIPTION     LICENSE     
+                                       0           ].
+20240729-105109.1722261069:GET_CONFIG:
+20240729-105109.1722261069:GET_CONFIG:Função finalizada.
+20240729-105122.1722261082:MAIN:Opção escolhida: .
+20240729-105122.1722261082:MAIN:Chamando a função -> help().
+20240729-105128.1722261088:MAIN:Iniciando função.
+20240729-105128.1722261088:MAIN:Listando opções.
+20240729-105131.1722261091:MAIN:Opção escolhida: 1.
+20240729-105131.1722261091:MAIN:Chamando a função -> read_list_pipelines().
+20240729-105131.1722261091:READ_LIST_PIPELINES:
+20240729-105131.1722261091:READ_LIST_PIPELINES:Iniciando função.
+20240729-105131.1722261091:READ_LIST_PIPELINES:Chamando a função -> list_pipelines().
+20240729-105131.1722261091:LIST_PIPELINES:
+20240729-105131.1722261091:LIST_PIPELINES:Iniciando função.
+20240729-105131.1722261091:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/digibee/digibeectl-tools/.listPipelines.txt.
+20240729-105131.1722261091:LIST_PIPELINES:Excluindo arquivo.
+20240729-105131.1722261091:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240729-105131.1722261091:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/digibee/digibeectl-tools/.tempListPipelines.txt.
+20240729-105131.1722261091:LIST_PIPELINES:Excluindo arquivo.
+20240729-105131.1722261091:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240729-105131.1722261091:LIST_PIPELINES:GET dados de paginação.
+20240729-105132.1722261092:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240729-105132.1722261092:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240729-105132.1722261092:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240729-105132.1722261092:LIST_PIPELINES:        0
+20240729-105132.1722261092:LIST_PIPELINES:Função finalizada.
+20240729-105133.1722261093:READ_LIST_PIPELINES:Exibir na tela lista de pipelines.
+20240729-105133.1722261093:READ_LIST_PIPELINES:
+20240729-105133.1722261093:READ_LIST_PIPELINES:Função finalizada.
+20240812-174353.1723495433:MAIN:Opção escolhida: --get-config.
+20240812-174353.1723495433:MAIN:Chamando a função -> get_config().
+20240812-174353.1723495433:GET_CONFIG:
+20240812-174353.1723495433:GET_CONFIG:Iniciando função.
+20240812-174353.1723495433:GET_CONFIG:Carregando informações do digibeectl->[
+realm: 
+email: 
+endpoint: ].
+20240812-174353.1723495433:GET_CONFIG:Carregando informações do realm configurado->[
+Get "/design/realms/?digibee-ctl-email=": unsupported protocol scheme ""
+REALM     REALM-ID     DESCRIPTION     LICENSE     
+                                       0           ].
+20240812-174353.1723495433:GET_CONFIG:
+20240812-174353.1723495433:GET_CONFIG:Função finalizada.
+20240812-174512.1723495512:MAIN:Opção escolhida: --get-config.
+20240812-174512.1723495512:MAIN:Chamando a função -> get_config().
+20240812-174512.1723495512:GET_CONFIG:
+20240812-174512.1723495512:GET_CONFIG:Iniciando função.
+20240812-174512.1723495512:GET_CONFIG:Carregando informações do digibeectl->[
+realm: 
+email: 
+endpoint: ].
+20240812-174512.1723495512:GET_CONFIG:Carregando informações do realm configurado->[
+Get "/design/realms/?digibee-ctl-email=": unsupported protocol scheme ""
+REALM     REALM-ID     DESCRIPTION     LICENSE     
+                                       0           ].
+20240812-174512.1723495512:GET_CONFIG:
+20240812-174512.1723495512:GET_CONFIG:Função finalizada.
+20240812-174553.1723495553:MAIN:Opção escolhida: --set-config.
+20240812-174553.1723495553:MAIN:Chamando a função -> set_config().
+20240812-174553.1723495553:SET_CONFIG:
+20240812-174553.1723495553:SET_CONFIG:Iniciando função.
+20240812-174553.1723495553:SET_CONFIG:Consultados dados de configuração do realm -> lg.
+20240812-174553.1723495553:SET_CONFIG:Setando configurações .
+20240812-174553.1723495553:SET_CONFIG:Erro ao configurar ambiente: [].
+20240812-174553.1723495553:SET_CONFIG:
+20240812-174553.1723495553:SET_CONFIG:Função finalizada.
+20240812-174600.1723495560:MAIN:Opção escolhida: --set-config.
+20240812-174600.1723495560:MAIN:Chamando a função -> set_config().
+20240812-174600.1723495560:SET_CONFIG:
+20240812-174600.1723495560:SET_CONFIG:Iniciando função.
+20240812-174600.1723495560:SET_CONFIG:Consultados dados de configuração do realm -> bv.
+20240812-174600.1723495560:SET_CONFIG:Setando configurações .
+20240812-174600.1723495560:SET_CONFIG:Erro ao configurar ambiente: [].
+20240812-174600.1723495560:SET_CONFIG:
+20240812-174600.1723495560:SET_CONFIG:Função finalizada.
+20240812-174603.1723495563:MAIN:Opção escolhida: --set-config.
+20240812-174603.1723495563:MAIN:Chamando a função -> set_config().
+20240812-174603.1723495563:SET_CONFIG:
+20240812-174603.1723495563:SET_CONFIG:Iniciando função.
+20240812-174603.1723495563:SET_CONFIG:Consultados dados de configuração do realm -> n26.
+20240812-174603.1723495563:SET_CONFIG:Setando configurações .
+20240812-174603.1723495563:SET_CONFIG:Erro ao configurar ambiente: [].
+20240812-174603.1723495563:SET_CONFIG:
+20240812-174603.1723495563:SET_CONFIG:Função finalizada.
+20240812-174744.1723495664:MAIN:Opção escolhida: --set-config.
+20240812-174744.1723495664:MAIN:Chamando a função -> set_config().
+20240812-174744.1723495664:SET_CONFIG:
+20240812-174744.1723495664:SET_CONFIG:Iniciando função.
+20240812-174744.1723495664:SET_CONFIG:Consultados dados de configuração do realm -> lugardegente.
+20240812-174745.1723495665:SET_CONFIG:Setando configurações lugardegente.
+20240812-174745.1723495665:SET_CONFIG:Ambiente configurado com sucesso: [lugardegente].
+20240812-174745.1723495665:SET_CONFIG:
+20240812-174745.1723495665:SET_CONFIG:Função finalizada.
+20240812-174753.1723495673:MAIN:Opção escolhida: --get-config.
+20240812-174753.1723495673:MAIN:Chamando a função -> get_config().
+20240812-174753.1723495673:GET_CONFIG:
+20240812-174753.1723495673:GET_CONFIG:Iniciando função.
+20240812-174753.1723495673:GET_CONFIG:Carregando informações do digibeectl->[
+realm: lugardegente
+email: walter.moura@digibee.com
+endpoint: https://core.godigibee.io:443].
+20240812-174753.1723495673:GET_CONFIG:Carregando informações do realm configurado->[
+REALM            REALM-ID                                 DESCRIPTION      LICENSE     
+lugardegente     671765fb-ae2a-4e5d-a4bc-5d44941cdb0b     lugardegente     10          ].
+20240812-174754.1723495674:GET_CONFIG:
+20240812-174754.1723495674:GET_CONFIG:Função finalizada.
+20240820-175042.1724187042:MAIN:Opção escolhida: --get-config.
+20240820-175042.1724187042:MAIN:Chamando a função -> get_config().
+20240820-175042.1724187042:GET_CONFIG:
+20240820-175042.1724187042:GET_CONFIG:Iniciando função.
+20240820-175042.1724187042:GET_CONFIG:Carregando informações do digibeectl->[
+realm: lugardegente
+email: walter.moura@digibee.com
+endpoint: https://core.godigibee.io:443].
+20240820-175042.1724187042:GET_CONFIG:Carregando informações do realm configurado->[
+REALM            REALM-ID                                 DESCRIPTION      LICENSE     
+lugardegente     671765fb-ae2a-4e5d-a4bc-5d44941cdb0b     lugardegente     10          ].
+20240820-175043.1724187043:GET_CONFIG:
+20240820-175043.1724187043:GET_CONFIG:Função finalizada.
+20240820-175838.1724187518:MAIN:Opção escolhida: --set-config.
+20240820-175838.1724187518:MAIN:Chamando a função -> set_config().
+20240820-175838.1724187518:SET_CONFIG:
+20240820-175838.1724187518:SET_CONFIG:Iniciando função.
+20240820-175838.1724187518:SET_CONFIG:Consultados dados de configuração do realm -> bv.
+20240820-175838.1724187518:SET_CONFIG:Setando configurações bv.
+20240820-175838.1724187518:SET_CONFIG:Ambiente configurado com sucesso: [bv].
+20240820-175838.1724187518:SET_CONFIG:
+20240820-175838.1724187518:SET_CONFIG:Função finalizada.
+20240820-175841.1724187521:MAIN:Opção escolhida: --get-config.
+20240820-175841.1724187521:MAIN:Chamando a função -> get_config().
+20240820-175841.1724187521:GET_CONFIG:
+20240820-175841.1724187521:GET_CONFIG:Iniciando função.
+20240820-175841.1724187521:GET_CONFIG:Carregando informações do digibeectl->[
+realm: bv
+email: walter.moura@digibee.com
+endpoint: https://core.godigibee.io:443].
+20240820-175841.1724187521:GET_CONFIG:Carregando informações do realm configurado->[
+REALM     REALM-ID                                 DESCRIPTION     LICENSE     
+bv        b2b12554-21a9-4e63-9758-5f7f69ef6539     bv              10          ].
+20240820-175842.1724187522:GET_CONFIG:
+20240820-175842.1724187522:GET_CONFIG:Função finalizada.
+20240820-175854.1724187534:MAIN:Iniciando função.
+20240820-175854.1724187534:MAIN:Listando opções.
+20240820-175857.1724187537:MAIN:Opção escolhida: 31.
+20240820-175906.1724187546:MAIN:Iniciando processo de busca do texto: [poc-bv-baixa-titulos-controle-duplicidade].
+20240820-175906.1724187546:FIND_TEXT:
+20240820-175906.1724187546:FIND_TEXT:Iniciando função.
+20240820-175906.1724187546:FIND_TEXT:Verifica se precisa chamar a função list_pipelines().
+20240820-175906.1724187546:FIND_GLOBAL:Chamando a função -> list_pipelines().
+20240820-175907.1724187547:LIST_PIPELINES:
+20240820-175907.1724187547:LIST_PIPELINES:Iniciando função.
+20240820-175907.1724187547:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-175907.1724187547:LIST_PIPELINES:Excluindo arquivo.
+20240820-175907.1724187547:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-175907.1724187547:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-175907.1724187547:LIST_PIPELINES:Excluindo arquivo.
+20240820-175907.1724187547:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-175907.1724187547:LIST_PIPELINES:GET dados de paginação.
+20240820-175910.1724187550:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-175910.1724187550:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-175910.1724187550:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-175911.1724187551:LIST_PIPELINES:       11
+20240820-175911.1724187551:LIST_PIPELINES:Função finalizada.
+20240820-175911.1724187551:FIND_TEXT:Global a ser buscada: .
+20240820-175912.1724187552:FIND_TEXT:Pipeline encontrado: evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.
+20240820-175912.1724187552:FIND_TEXT:Pipeline encontrado: evt-bv-notifica-parceiro|0c2209f8-ca9a-4467-8646-09698a66c073|1.7|false.
+20240820-175912.1724187552:FIND_TEXT:Pipeline encontrado: poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.
+20240820-175912.1724187552:FIND_TEXT:Pipeline encontrado: sch-bv-busca-clientes-notificacao|470dafd0-8d7c-48a3-90fb-af2a259e0337|1.17|false.
+20240820-175912.1724187552:FIND_TEXT:Pipeline encontrado: sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.
+20240820-175913.1724187553:FIND_TEXT:Total encontrado: 5.
+20240820-175913.1724187553:FIND_TEXT:
+20240820-175913.1724187553:FIND_TEXT:Função finalizada.
+20240820-180202.1724187722:MAIN:Iniciando função.
+20240820-180202.1724187722:MAIN:Listando opções.
+20240820-180205.1724187725:MAIN:Opção escolhida: 1.
+20240820-180205.1724187725:MAIN:Chamando a função -> read_list_pipelines().
+20240820-180205.1724187725:READ_LIST_PIPELINES:
+20240820-180205.1724187725:READ_LIST_PIPELINES:Iniciando função.
+20240820-180205.1724187725:READ_LIST_PIPELINES:Chamando a função -> list_pipelines().
+20240820-180205.1724187725:LIST_PIPELINES:
+20240820-180205.1724187725:LIST_PIPELINES:Iniciando função.
+20240820-180205.1724187725:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-180205.1724187725:LIST_PIPELINES:Excluindo arquivo.
+20240820-180205.1724187725:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-180205.1724187725:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-180205.1724187725:LIST_PIPELINES:Excluindo arquivo.
+20240820-180205.1724187725:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-180205.1724187725:LIST_PIPELINES:GET dados de paginação.
+20240820-180208.1724187728:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-180208.1724187728:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-180208.1724187728:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-180209.1724187729:LIST_PIPELINES:       11
+20240820-180209.1724187729:LIST_PIPELINES:Função finalizada.
+20240820-180209.1724187729:READ_LIST_PIPELINES:Exibir na tela lista de pipelines.
+20240820-180209.1724187729:READ_LIST_PIPELINES:draft-walter|5d0a168e-902b-4835-b822-3771583f54cf|1.0|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:draft-walter-bv|136204b5-a4f8-4a14-9f03-6b302ddb55f5|1.0|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:evt-bv-notifica-parceiro|0c2209f8-ca9a-4467-8646-09698a66c073|1.7|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:poc-bv-baixa-titulos-broker-bv|7ebb3ed4-bf0e-4011-a90f-92bbb1295d5f|1.1|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:poc-bv-notifica-clientes-baixa-titulos|4f68a548-4c33-4d65-8b0b-76fea8e55299|1.5|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:sch-bv-busca-clientes-notificacao|470dafd0-8d7c-48a3-90fb-af2a259e0337|1.17|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:sch-bv-error-handling-group-and-notify|eb2efdbf-7af1-4b9d-a8dc-402865b31bd2|1.0|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:sch-bv-reprocessamento|59844375-c578-4e7d-9bee-747803318799|1.6|false.
+20240820-180209.1724187729:READ_LIST_PIPELINES:
+20240820-180209.1724187729:READ_LIST_PIPELINES:Função finalizada.
+20240820-180443.1724187883:MAIN:Iniciando função.
+20240820-180443.1724187883:MAIN:Listando opções.
+20240820-180448.1724187888:MAIN:Opção escolhida: 31.
+20240820-180450.1724187890:MAIN:Iniciando processo de busca do texto: [poc-bv-baixa-titulos-controle-duplicidade].
+20240820-180450.1724187890:FIND_TEXT:
+20240820-180450.1724187890:FIND_TEXT:Iniciando função.
+20240820-180450.1724187890:FIND_TEXT:Verifica se precisa chamar a função list_pipelines().
+20240820-180450.1724187890:FIND_GLOBAL:Chamando a função -> list_pipelines().
+20240820-180450.1724187890:LIST_PIPELINES:
+20240820-180450.1724187890:LIST_PIPELINES:Iniciando função.
+20240820-180450.1724187890:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-180450.1724187890:LIST_PIPELINES:Excluindo arquivo.
+20240820-180450.1724187890:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-180450.1724187890:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-180450.1724187890:LIST_PIPELINES:Excluindo arquivo.
+20240820-180450.1724187890:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-180450.1724187890:LIST_PIPELINES:GET dados de paginação.
+20240820-180453.1724187893:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-180453.1724187893:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-180453.1724187893:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-180454.1724187894:LIST_PIPELINES:       11
+20240820-180454.1724187894:LIST_PIPELINES:Função finalizada.
+20240820-180454.1724187894:FIND_TEXT:Global a ser buscada: .
+20240820-180454.1724187894:FIND_TEXT:Pipeline encontrado: evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.
+20240820-180455.1724187895:FIND_TEXT:Pipeline encontrado: evt-bv-notifica-parceiro|0c2209f8-ca9a-4467-8646-09698a66c073|1.7|false.
+20240820-180455.1724187895:FIND_TEXT:Pipeline encontrado: poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.
+20240820-180455.1724187895:FIND_TEXT:Pipeline encontrado: sch-bv-busca-clientes-notificacao|470dafd0-8d7c-48a3-90fb-af2a259e0337|1.17|false.
+20240820-180455.1724187895:FIND_TEXT:Pipeline encontrado: sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.
+20240820-180456.1724187896:FIND_TEXT:Total encontrado: 5.
+20240820-180456.1724187896:FIND_TEXT:
+20240820-180456.1724187896:FIND_TEXT:Função finalizada.
+20240820-180557.1724187957:MAIN:Iniciando função.
+20240820-180557.1724187957:MAIN:Listando opções.
+20240820-180601.1724187961:MAIN:Opção escolhida: 2-prod.
+20240820-180601.1724187961:MAIN:Chamando a função -> read_list_deployment().
+20240820-180601.1724187961:READ_LIST_DEPLOYMENT:
+20240820-180601.1724187961:READ_LIST_DEPLOYMENT:Iniciando função.
+20240820-180601.1724187961:READ_LIST_DEPLOYMENT:Chamando a função -> list_deployment().
+20240820-180601.1724187961:LIST_DEPLOYMENT:
+20240820-180601.1724187961:LIST_DEPLOYMENT:Iniciando função.
+20240820-180601.1724187961:LIST_DEPLOYMENT:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-180601.1724187961:LIST_DEPLOYMENT:Buscando deploys ambiente: prod.
+20240820-180602.1724187962:LIST_DEPLOYMENT:Lista de deploys carregada com sucesso.
+20240820-180602.1724187962:LIST_DEPLOYMENT:
+20240820-180602.1724187962:LIST_DEPLOYMENT:Função finalizada.
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:Percorre arquivo : /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:Deploys encontrados: api-bv-config|afe16366-6762-4e65-8e27-c6afebb68653|1.21|Deployed|1/1|10|SMALL|prod|BaixaTítulos|Notificação|1||||||.
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-busca-titulos-baixados|db2579be-cd0f-4d84-9442-9d1df77c8709|1.44|Deployed|1/1|10|SMALL|prod|BaixaTítulos|Notificação|1||||||.
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-notifica-parceiro|bc6528d3-34df-4cca-b518-a9b099be4f7c|1.7|Deployed|2/2|10|SMALL|prod|BaixaTítulos|Notificação|2||||||.
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-busca-clientes-notificacao|e5cfff52-d810-4929-b3d2-51b09a2ce626|1.17|Deployed|1/1|1|SMALL|prod|BaixaTítulos|Notificação|1||||||.
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reporte|6b65f7f3-c3a3-4ad9-8bf5-099a2c56cf1d|1.23|Deployed|1/1|1|MEDIUM|prod|BaixaTítulos|Notificação|2||||||.
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reprocessamento|306b8bda-8972-47ed-86a3-4237f5ea10f4|1.6|Deployed|1/1|1|SMALL|prod|Comuns1||||||||.
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:Total Deployments: 6 | Total RTUs: 8.
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:
+20240820-180602.1724187962:READ_LIST_DEPLOYMENT:Função finalizada.
+20240820-180917.1724188157:MAIN:Iniciando função.
+20240820-180917.1724188157:MAIN:Listando opções.
+20240820-180923.1724188163:MAIN:Opção escolhida: 2-prod.
+20240820-180923.1724188163:MAIN:Chamando a função -> read_list_deployment().
+20240820-180923.1724188163:READ_LIST_DEPLOYMENT:
+20240820-180923.1724188163:READ_LIST_DEPLOYMENT:Iniciando função.
+20240820-180923.1724188163:READ_LIST_DEPLOYMENT:Chamando a função -> list_deployment().
+20240820-180923.1724188163:LIST_DEPLOYMENT:
+20240820-180923.1724188163:LIST_DEPLOYMENT:Iniciando função.
+20240820-180923.1724188163:LIST_DEPLOYMENT:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-180923.1724188163:LIST_DEPLOYMENT:Excluindo arquivo.
+20240820-180923.1724188163:LIST_DEPLOYMENT:Arquivo excluido com sucesso.
+20240820-180923.1724188163:LIST_DEPLOYMENT:Buscando deploys ambiente: prod.
+20240820-180923.1724188163:LIST_DEPLOYMENT:Lista de deploys carregada com sucesso.
+20240820-180923.1724188163:LIST_DEPLOYMENT:
+20240820-180923.1724188163:LIST_DEPLOYMENT:Função finalizada.
+20240820-180923.1724188163:READ_LIST_DEPLOYMENT:Percorre arquivo : /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-180923.1724188163:READ_LIST_DEPLOYMENT:Deploys encontrados: api-bv-config|afe16366-6762-4e65-8e27-c6afebb68653|1.21|Deployed|1/1|10|SMALL|prod|1.
+20240820-180923.1724188163:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-busca-titulos-baixados|db2579be-cd0f-4d84-9442-9d1df77c8709|1.44|Deployed|1/1|10|SMALL|prod|1.
+20240820-180923.1724188163:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-notifica-parceiro|bc6528d3-34df-4cca-b518-a9b099be4f7c|1.7|Deployed|2/2|10|SMALL|prod|2.
+20240820-180923.1724188163:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-busca-clientes-notificacao|e5cfff52-d810-4929-b3d2-51b09a2ce626|1.17|Deployed|1/1|1|SMALL|prod|1.
+20240820-180923.1724188163:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reporte|6b65f7f3-c3a3-4ad9-8bf5-099a2c56cf1d|1.23|Deployed|1/1|1|MEDIUM|prod|2.
+20240820-180924.1724188164:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reprocessamento|306b8bda-8972-47ed-86a3-4237f5ea10f4|1.6|Deployed|1/1|1|SMALL|prod|1.
+20240820-180924.1724188164:READ_LIST_DEPLOYMENT:Total Deployments: 6 | Total RTUs: 8.
+20240820-180924.1724188164:READ_LIST_DEPLOYMENT:
+20240820-180924.1724188164:READ_LIST_DEPLOYMENT:Função finalizada.
+20240820-181058.1724188258:MAIN:Iniciando função.
+20240820-181058.1724188258:MAIN:Listando opções.
+20240820-181101.1724188261:MAIN:Opção escolhida: 2-prod.
+20240820-181101.1724188261:MAIN:Chamando a função -> read_list_deployment().
+20240820-181101.1724188261:READ_LIST_DEPLOYMENT:
+20240820-181101.1724188261:READ_LIST_DEPLOYMENT:Iniciando função.
+20240820-181101.1724188261:READ_LIST_DEPLOYMENT:Chamando a função -> list_deployment().
+20240820-181101.1724188261:LIST_DEPLOYMENT:
+20240820-181101.1724188261:LIST_DEPLOYMENT:Iniciando função.
+20240820-181101.1724188261:LIST_DEPLOYMENT:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181101.1724188261:LIST_DEPLOYMENT:Excluindo arquivo.
+20240820-181101.1724188261:LIST_DEPLOYMENT:Arquivo excluido com sucesso.
+20240820-181101.1724188261:LIST_DEPLOYMENT:Buscando deploys ambiente: prod.
+20240820-181101.1724188261:LIST_DEPLOYMENT:Lista de deploys carregada com sucesso.
+20240820-181101.1724188261:LIST_DEPLOYMENT:
+20240820-181101.1724188261:LIST_DEPLOYMENT:Função finalizada.
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:Percorre arquivo : /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:Deploys encontrados: api-bv-config|afe16366-6762-4e65-8e27-c6afebb68653|1.21|Deployed|1/1|10|SMALL|prod|1.
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-busca-titulos-baixados|db2579be-cd0f-4d84-9442-9d1df77c8709|1.44|Deployed|1/1|10|SMALL|prod|1.
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-notifica-parceiro|bc6528d3-34df-4cca-b518-a9b099be4f7c|1.7|Deployed|2/2|10|SMALL|prod|2.
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-busca-clientes-notificacao|e5cfff52-d810-4929-b3d2-51b09a2ce626|1.17|Deployed|1/1|1|SMALL|prod|1.
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reporte|6b65f7f3-c3a3-4ad9-8bf5-099a2c56cf1d|1.23|Deployed|1/1|1|MEDIUM|prod|2.
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reprocessamento|306b8bda-8972-47ed-86a3-4237f5ea10f4|1.6|Deployed|1/1|1|SMALL|prod|1.
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:Total Deployments: 6 | Total RTUs: 8.
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:
+20240820-181102.1724188262:READ_LIST_DEPLOYMENT:Função finalizada.
+20240820-181345.1724188425:MAIN:Iniciando função.
+20240820-181345.1724188425:MAIN:Listando opções.
+20240820-181349.1724188429:MAIN:Opção escolhida: 2-prod.
+20240820-181349.1724188429:MAIN:Chamando a função -> read_list_deployment().
+20240820-181349.1724188429:READ_LIST_DEPLOYMENT:
+20240820-181349.1724188429:READ_LIST_DEPLOYMENT:Iniciando função.
+20240820-181349.1724188429:READ_LIST_DEPLOYMENT:Chamando a função -> list_deployment().
+20240820-181349.1724188429:LIST_DEPLOYMENT:
+20240820-181349.1724188429:LIST_DEPLOYMENT:Iniciando função.
+20240820-181349.1724188429:LIST_DEPLOYMENT:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181349.1724188429:LIST_DEPLOYMENT:Excluindo arquivo.
+20240820-181349.1724188429:LIST_DEPLOYMENT:Arquivo excluido com sucesso.
+20240820-181349.1724188429:LIST_DEPLOYMENT:Buscando deploys ambiente: prod.
+20240820-181350.1724188430:LIST_DEPLOYMENT:Lista de deploys carregada com sucesso.
+20240820-181350.1724188430:LIST_DEPLOYMENT:
+20240820-181350.1724188430:LIST_DEPLOYMENT:Função finalizada.
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:Percorre arquivo : /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:Deploys encontrados: api-bv-config|afe16366-6762-4e65-8e27-c6afebb68653|1.21|Deployed|1/1|10|SMALL|prod|1.
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-busca-titulos-baixados|db2579be-cd0f-4d84-9442-9d1df77c8709|1.44|Deployed|1/1|10|SMALL|prod|1.
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-notifica-parceiro|bc6528d3-34df-4cca-b518-a9b099be4f7c|1.7|Deployed|2/2|10|SMALL|prod|2.
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-busca-clientes-notificacao|e5cfff52-d810-4929-b3d2-51b09a2ce626|1.17|Deployed|1/1|1|SMALL|prod|1.
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reporte|6b65f7f3-c3a3-4ad9-8bf5-099a2c56cf1d|1.23|Deployed|1/1|1|MEDIUM|prod|2.
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reprocessamento|306b8bda-8972-47ed-86a3-4237f5ea10f4|1.6|Deployed|1/1|1|SMALL|prod|1.
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:Total Deployments: 6 | Total RTUs: 8.
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:
+20240820-181350.1724188430:READ_LIST_DEPLOYMENT:Função finalizada.
+20240820-181427.1724188467:MAIN:Opção escolhida: --help.
+20240820-181427.1724188467:MAIN:Chamando a função -> help().
+20240820-181451.1724188491:MAIN:Opção escolhida: --list-deploys-prod.
+20240820-181451.1724188491:MAIN:Chamando a função -> read_list_deployment().
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Iniciando função.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Chamando a função -> list_deployment().
+20240820-181451.1724188491:LIST_DEPLOYMENT:
+20240820-181451.1724188491:LIST_DEPLOYMENT:Iniciando função.
+20240820-181451.1724188491:LIST_DEPLOYMENT:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181451.1724188491:LIST_DEPLOYMENT:Excluindo arquivo.
+20240820-181451.1724188491:LIST_DEPLOYMENT:Arquivo excluido com sucesso.
+20240820-181451.1724188491:LIST_DEPLOYMENT:Buscando deploys ambiente: prod.
+20240820-181451.1724188491:LIST_DEPLOYMENT:Lista de deploys carregada com sucesso.
+20240820-181451.1724188491:LIST_DEPLOYMENT:
+20240820-181451.1724188491:LIST_DEPLOYMENT:Função finalizada.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Percorre arquivo : /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Deploys encontrados: api-bv-config|afe16366-6762-4e65-8e27-c6afebb68653|1.21|Deployed|1/1|10|SMALL|prod|1.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-busca-titulos-baixados|db2579be-cd0f-4d84-9442-9d1df77c8709|1.44|Deployed|1/1|10|SMALL|prod|1.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-notifica-parceiro|bc6528d3-34df-4cca-b518-a9b099be4f7c|1.7|Deployed|2/2|10|SMALL|prod|2.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-busca-clientes-notificacao|e5cfff52-d810-4929-b3d2-51b09a2ce626|1.17|Deployed|1/1|1|SMALL|prod|1.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reporte|6b65f7f3-c3a3-4ad9-8bf5-099a2c56cf1d|1.23|Deployed|1/1|1|MEDIUM|prod|2.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reprocessamento|306b8bda-8972-47ed-86a3-4237f5ea10f4|1.6|Deployed|1/1|1|SMALL|prod|1.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Total Deployments: 6 | Total RTUs: 8.
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:
+20240820-181451.1724188491:READ_LIST_DEPLOYMENT:Função finalizada.
+20240820-181546.1724188546:MAIN:Opção escolhida: --list-deploys-prod.
+20240820-181546.1724188546:MAIN:Chamando a função -> read_list_deployment().
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Iniciando função.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Chamando a função -> list_deployment().
+20240820-181546.1724188546:LIST_DEPLOYMENT:
+20240820-181546.1724188546:LIST_DEPLOYMENT:Iniciando função.
+20240820-181546.1724188546:LIST_DEPLOYMENT:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181546.1724188546:LIST_DEPLOYMENT:Excluindo arquivo.
+20240820-181546.1724188546:LIST_DEPLOYMENT:Arquivo excluido com sucesso.
+20240820-181546.1724188546:LIST_DEPLOYMENT:Buscando deploys ambiente: prod.
+20240820-181546.1724188546:LIST_DEPLOYMENT:Lista de deploys carregada com sucesso.
+20240820-181546.1724188546:LIST_DEPLOYMENT:
+20240820-181546.1724188546:LIST_DEPLOYMENT:Função finalizada.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Percorre arquivo : /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Deploys encontrados: api-bv-config|afe16366-6762-4e65-8e27-c6afebb68653|1.21|Deployed|1/1|10|SMALL|prod|1.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-busca-titulos-baixados|db2579be-cd0f-4d84-9442-9d1df77c8709|1.44|Deployed|1/1|10|SMALL|prod|1.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-notifica-parceiro|bc6528d3-34df-4cca-b518-a9b099be4f7c|1.7|Deployed|2/2|10|SMALL|prod|2.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-busca-clientes-notificacao|e5cfff52-d810-4929-b3d2-51b09a2ce626|1.17|Deployed|1/1|1|SMALL|prod|1.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reporte|6b65f7f3-c3a3-4ad9-8bf5-099a2c56cf1d|1.23|Deployed|1/1|1|MEDIUM|prod|2.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reprocessamento|306b8bda-8972-47ed-86a3-4237f5ea10f4|1.6|Deployed|1/1|1|SMALL|prod|1.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Total Deployments: 6 | Total RTUs: 8.
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:
+20240820-181546.1724188546:READ_LIST_DEPLOYMENT:Função finalizada.
+20240820-181635.1724188595:MAIN:Opção escolhida: --list-deploys-prod.
+20240820-181635.1724188595:MAIN:Chamando a função -> read_list_deployment().
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Iniciando função.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Chamando a função -> list_deployment().
+20240820-181635.1724188595:LIST_DEPLOYMENT:
+20240820-181635.1724188595:LIST_DEPLOYMENT:Iniciando função.
+20240820-181635.1724188595:LIST_DEPLOYMENT:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181635.1724188595:LIST_DEPLOYMENT:Excluindo arquivo.
+20240820-181635.1724188595:LIST_DEPLOYMENT:Arquivo excluido com sucesso.
+20240820-181635.1724188595:LIST_DEPLOYMENT:Buscando deploys ambiente: prod.
+20240820-181635.1724188595:LIST_DEPLOYMENT:Lista de deploys carregada com sucesso.
+20240820-181635.1724188595:LIST_DEPLOYMENT:
+20240820-181635.1724188595:LIST_DEPLOYMENT:Função finalizada.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Percorre arquivo : /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Deploys encontrados: api-bv-config|afe16366-6762-4e65-8e27-c6afebb68653|1.21|Deployed|1/1|10|SMALL|prod|1.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-busca-titulos-baixados|db2579be-cd0f-4d84-9442-9d1df77c8709|1.44|Deployed|1/1|10|SMALL|prod|1.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-notifica-parceiro|bc6528d3-34df-4cca-b518-a9b099be4f7c|1.7|Deployed|2/2|10|SMALL|prod|2.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-busca-clientes-notificacao|e5cfff52-d810-4929-b3d2-51b09a2ce626|1.17|Deployed|1/1|1|SMALL|prod|1.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reporte|6b65f7f3-c3a3-4ad9-8bf5-099a2c56cf1d|1.23|Deployed|1/1|1|MEDIUM|prod|2.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reprocessamento|306b8bda-8972-47ed-86a3-4237f5ea10f4|1.6|Deployed|1/1|1|SMALL|prod|1.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Total Deployments: 6 | Total RTUs: 8.
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:
+20240820-181635.1724188595:READ_LIST_DEPLOYMENT:Função finalizada.
+20240820-181719.1724188639:MAIN:Opção escolhida: --list-deploys-prod.
+20240820-181719.1724188639:MAIN:Chamando a função -> read_list_deployment().
+20240820-181719.1724188639:READ_LIST_DEPLOYMENT:
+20240820-181719.1724188639:READ_LIST_DEPLOYMENT:Iniciando função.
+20240820-181719.1724188639:READ_LIST_DEPLOYMENT:Chamando a função -> list_deployment().
+20240820-181719.1724188639:LIST_DEPLOYMENT:
+20240820-181719.1724188639:LIST_DEPLOYMENT:Iniciando função.
+20240820-181719.1724188639:LIST_DEPLOYMENT:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181719.1724188639:LIST_DEPLOYMENT:Excluindo arquivo.
+20240820-181719.1724188639:LIST_DEPLOYMENT:Arquivo excluido com sucesso.
+20240820-181719.1724188639:LIST_DEPLOYMENT:Buscando deploys ambiente: prod.
+20240820-181719.1724188639:LIST_DEPLOYMENT:Lista de deploys carregada com sucesso.
+20240820-181720.1724188640:LIST_DEPLOYMENT:
+20240820-181720.1724188640:LIST_DEPLOYMENT:Função finalizada.
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:Percorre arquivo : /Users/walte/Documents/Digibee/digibeectl-tools/.listDeploymentPipelines.txt.
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:Deploys encontrados: api-bv-config|afe16366-6762-4e65-8e27-c6afebb68653|1.21|Deployed|1/1|10|SMALL|prod|1.
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-busca-titulos-baixados|db2579be-cd0f-4d84-9442-9d1df77c8709|1.44|Deployed|1/1|10|SMALL|prod|1.
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:Deploys encontrados: evt-bv-notifica-parceiro|bc6528d3-34df-4cca-b518-a9b099be4f7c|1.7|Deployed|2/2|10|SMALL|prod|2.
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-busca-clientes-notificacao|e5cfff52-d810-4929-b3d2-51b09a2ce626|1.17|Deployed|1/1|1|SMALL|prod|1.
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reporte|6b65f7f3-c3a3-4ad9-8bf5-099a2c56cf1d|1.23|Deployed|1/1|1|MEDIUM|prod|2.
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:Deploys encontrados: sch-bv-reprocessamento|306b8bda-8972-47ed-86a3-4237f5ea10f4|1.6|Deployed|1/1|1|SMALL|prod|1.
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:Total Deployments: 6 | Total RTUs: 8.
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:
+20240820-181720.1724188640:READ_LIST_DEPLOYMENT:Função finalizada.
+20240820-181736.1724188656:MAIN:Opção escolhida: --list-pipelines.
+20240820-181736.1724188656:MAIN:Chamando a função -> read_list_pipelines().
+20240820-181736.1724188656:READ_LIST_PIPELINES:
+20240820-181736.1724188656:READ_LIST_PIPELINES:Iniciando função.
+20240820-181736.1724188656:READ_LIST_PIPELINES:Chamando a função -> list_pipelines().
+20240820-181736.1724188656:LIST_PIPELINES:
+20240820-181736.1724188656:LIST_PIPELINES:Iniciando função.
+20240820-181736.1724188656:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-181736.1724188656:LIST_PIPELINES:Excluindo arquivo.
+20240820-181736.1724188656:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-181736.1724188656:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-181736.1724188656:LIST_PIPELINES:Excluindo arquivo.
+20240820-181736.1724188656:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-181736.1724188656:LIST_PIPELINES:GET dados de paginação.
+20240820-181739.1724188659:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-181739.1724188659:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-181739.1724188659:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-181740.1724188660:LIST_PIPELINES:       11
+20240820-181740.1724188660:LIST_PIPELINES:Função finalizada.
+20240820-181740.1724188660:READ_LIST_PIPELINES:Exibir na tela lista de pipelines.
+20240820-181740.1724188660:READ_LIST_PIPELINES:draft-walter|5d0a168e-902b-4835-b822-3771583f54cf|1.0|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:draft-walter-bv|136204b5-a4f8-4a14-9f03-6b302ddb55f5|1.0|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:evt-bv-notifica-parceiro|0c2209f8-ca9a-4467-8646-09698a66c073|1.7|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:poc-bv-baixa-titulos-broker-bv|7ebb3ed4-bf0e-4011-a90f-92bbb1295d5f|1.1|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:poc-bv-notifica-clientes-baixa-titulos|4f68a548-4c33-4d65-8b0b-76fea8e55299|1.5|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:sch-bv-busca-clientes-notificacao|470dafd0-8d7c-48a3-90fb-af2a259e0337|1.17|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:sch-bv-error-handling-group-and-notify|eb2efdbf-7af1-4b9d-a8dc-402865b31bd2|1.0|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:sch-bv-reprocessamento|59844375-c578-4e7d-9bee-747803318799|1.6|false.
+20240820-181740.1724188660:READ_LIST_PIPELINES:
+20240820-181740.1724188660:READ_LIST_PIPELINES:Função finalizada.
+20240820-181859.1724188739:MAIN:Opção escolhida: --list-pipelines.
+20240820-181859.1724188739:MAIN:Chamando a função -> read_list_pipelines().
+20240820-181859.1724188739:READ_LIST_PIPELINES:
+20240820-181859.1724188739:READ_LIST_PIPELINES:Iniciando função.
+20240820-181859.1724188739:READ_LIST_PIPELINES:Chamando a função -> list_pipelines().
+20240820-181859.1724188739:LIST_PIPELINES:
+20240820-181859.1724188739:LIST_PIPELINES:Iniciando função.
+20240820-181859.1724188739:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-181859.1724188739:LIST_PIPELINES:Excluindo arquivo.
+20240820-181859.1724188739:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-181859.1724188739:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-181859.1724188739:LIST_PIPELINES:Excluindo arquivo.
+20240820-181859.1724188739:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-181859.1724188739:LIST_PIPELINES:GET dados de paginação.
+20240820-181902.1724188742:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-181902.1724188742:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-181902.1724188742:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-181904.1724188744:LIST_PIPELINES:       11
+20240820-181904.1724188744:LIST_PIPELINES:Função finalizada.
+20240820-181904.1724188744:READ_LIST_PIPELINES:Exibir na tela lista de pipelines.
+20240820-181904.1724188744:READ_LIST_PIPELINES:draft-walter|5d0a168e-902b-4835-b822-3771583f54cf|1.0|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:draft-walter-bv|136204b5-a4f8-4a14-9f03-6b302ddb55f5|1.0|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:evt-bv-notifica-parceiro|0c2209f8-ca9a-4467-8646-09698a66c073|1.7|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:poc-bv-baixa-titulos-broker-bv|7ebb3ed4-bf0e-4011-a90f-92bbb1295d5f|1.1|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:poc-bv-notifica-clientes-baixa-titulos|4f68a548-4c33-4d65-8b0b-76fea8e55299|1.5|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:sch-bv-busca-clientes-notificacao|470dafd0-8d7c-48a3-90fb-af2a259e0337|1.17|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:sch-bv-error-handling-group-and-notify|eb2efdbf-7af1-4b9d-a8dc-402865b31bd2|1.0|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:sch-bv-reprocessamento|59844375-c578-4e7d-9bee-747803318799|1.6|false.
+20240820-181904.1724188744:READ_LIST_PIPELINES:
+20240820-181904.1724188744:READ_LIST_PIPELINES:Função finalizada.
+20240820-181912.1724188752:MAIN:Opção escolhida: --help.
+20240820-181912.1724188752:MAIN:Chamando a função -> help().
+20240820-182001.1724188801:MAIN:Iniciando processo de busca da global: [{{global.sybase-interbancaria}}].
+20240820-182001.1724188801:FIND_GLOBAL:
+20240820-182001.1724188801:FIND_GLOBAL:Iniciando função.
+20240820-182001.1724188801:FIND_GLOBAL:Verifica se precisa chamar a função list_pipelines().
+20240820-182001.1724188801:FIND_GLOBAL:Chamando a função -> list_pipelines().
+20240820-182001.1724188801:LIST_PIPELINES:
+20240820-182001.1724188801:LIST_PIPELINES:Iniciando função.
+20240820-182001.1724188801:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-182001.1724188801:LIST_PIPELINES:Excluindo arquivo.
+20240820-182001.1724188801:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182001.1724188801:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-182001.1724188801:LIST_PIPELINES:Excluindo arquivo.
+20240820-182001.1724188801:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182001.1724188801:LIST_PIPELINES:GET dados de paginação.
+20240820-182004.1724188804:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-182004.1724188804:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-182004.1724188804:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-182005.1724188805:LIST_PIPELINES:       11
+20240820-182005.1724188805:LIST_PIPELINES:Função finalizada.
+20240820-182005.1724188805:FIND_GLOBAL:Global a ser buscada: {{global.sybase-interbancaria}}.
+20240820-182007.1724188807:FIND_GLOBAL:Total encontrado: 0.
+20240820-182007.1724188807:FIND_GLOBAL:
+20240820-182007.1724188807:FIND_GLOBAL:Função finalizada.
+20240820-182151.1724188911:MAIN:Iniciando processo de busca da global: [{{global.sybase-interbancaria}}].
+20240820-182151.1724188911:FIND_GLOBAL:
+20240820-182151.1724188911:FIND_GLOBAL:Iniciando função.
+20240820-182151.1724188911:FIND_GLOBAL:Verifica se precisa chamar a função list_pipelines().
+20240820-182151.1724188911:FIND_GLOBAL:Chamando a função -> list_pipelines().
+20240820-182151.1724188911:LIST_PIPELINES:
+20240820-182151.1724188911:LIST_PIPELINES:Iniciando função.
+20240820-182151.1724188911:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-182151.1724188911:LIST_PIPELINES:Excluindo arquivo.
+20240820-182151.1724188911:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182151.1724188911:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-182151.1724188911:LIST_PIPELINES:Excluindo arquivo.
+20240820-182151.1724188911:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182151.1724188911:LIST_PIPELINES:GET dados de paginação.
+20240820-182154.1724188914:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-182154.1724188914:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-182154.1724188914:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-182155.1724188915:LIST_PIPELINES:       11
+20240820-182155.1724188915:LIST_PIPELINES:Função finalizada.
+20240820-182155.1724188915:FIND_GLOBAL:Global a ser buscada: {{global.sybase-interbancaria}}.
+20240820-182157.1724188917:FIND_GLOBAL:Total encontrado: 0.
+20240820-182157.1724188917:FIND_GLOBAL:
+20240820-182157.1724188917:FIND_GLOBAL:Função finalizada.
+20240820-182214.1724188934:MAIN:Iniciando processo de busca da global: [{{global.sybase-intrabancaria}}].
+20240820-182214.1724188934:FIND_GLOBAL:
+20240820-182214.1724188934:FIND_GLOBAL:Iniciando função.
+20240820-182214.1724188934:FIND_GLOBAL:Verifica se precisa chamar a função list_pipelines().
+20240820-182214.1724188934:FIND_GLOBAL:Chamando a função -> list_pipelines().
+20240820-182214.1724188934:LIST_PIPELINES:
+20240820-182214.1724188934:LIST_PIPELINES:Iniciando função.
+20240820-182214.1724188934:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-182214.1724188934:LIST_PIPELINES:Excluindo arquivo.
+20240820-182214.1724188934:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182214.1724188934:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-182214.1724188934:LIST_PIPELINES:Excluindo arquivo.
+20240820-182214.1724188934:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182214.1724188934:LIST_PIPELINES:GET dados de paginação.
+20240820-182217.1724188937:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-182217.1724188937:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-182217.1724188937:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-182219.1724188939:LIST_PIPELINES:       11
+20240820-182219.1724188939:LIST_PIPELINES:Função finalizada.
+20240820-182219.1724188939:FIND_GLOBAL:Global a ser buscada: {{global.sybase-intrabancaria}}.
+20240820-182219.1724188939:FIND_GLOBAL:Pipeline encontrado: evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.
+20240820-182221.1724188941:FIND_GLOBAL:Total encontrado: 1.
+20240820-182221.1724188941:FIND_GLOBAL:
+20240820-182221.1724188941:FIND_GLOBAL:Função finalizada.
+20240820-182252.1724188972:MAIN:Iniciando processo de busca da global: [{{global.sybase-intrabancaria}}].
+20240820-182252.1724188972:FIND_GLOBAL:
+20240820-182252.1724188972:FIND_GLOBAL:Iniciando função.
+20240820-182252.1724188972:FIND_GLOBAL:Verifica se precisa chamar a função list_pipelines().
+20240820-182252.1724188972:FIND_GLOBAL:Chamando a função -> list_pipelines().
+20240820-182252.1724188972:LIST_PIPELINES:
+20240820-182252.1724188972:LIST_PIPELINES:Iniciando função.
+20240820-182252.1724188972:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-182252.1724188972:LIST_PIPELINES:Excluindo arquivo.
+20240820-182252.1724188972:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182252.1724188972:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-182252.1724188972:LIST_PIPELINES:Excluindo arquivo.
+20240820-182252.1724188972:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182252.1724188972:LIST_PIPELINES:GET dados de paginação.
+20240820-182255.1724188975:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-182255.1724188975:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-182255.1724188975:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-182257.1724188977:LIST_PIPELINES:       11
+20240820-182257.1724188977:LIST_PIPELINES:Função finalizada.
+20240820-182257.1724188977:FIND_GLOBAL:Global a ser buscada: {{global.sybase-intrabancaria}}.
+20240820-182257.1724188977:FIND_GLOBAL:Pipeline encontrado: evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.
+20240820-182259.1724188979:FIND_GLOBAL:Total encontrado: 1.
+20240820-182259.1724188979:FIND_GLOBAL:
+20240820-182259.1724188979:FIND_GLOBAL:Função finalizada.
+20240820-182307.1724188987:MAIN:Opção escolhida: --help.
+20240820-182307.1724188987:MAIN:Chamando a função -> help().
+20240820-182400.1724189040:MAIN:Opção escolhida: --search-capsula.
+20240820-182400.1724189040:MAIN:Chamando a função -> help().
+20240820-182406.1724189046:MAIN:Opção escolhida: --search-capsula.
+20240820-182406.1724189046:MAIN:Chamando a função -> help().
+20240820-182414.1724189054:MAIN:Iniciando processo de busca da capsula: [Parallel Execution List to Objects].
+20240820-182414.1724189054:FIND_CAPSULE:
+20240820-182414.1724189054:FIND_CAPSULE:Iniciando função.
+20240820-182414.1724189054:FIND_CAPSULE:Verifica se precisa chamar a função list_pipelines().
+20240820-182414.1724189054:FIND_CAPSULE:Chamando a função -> list_pipelines().
+20240820-182414.1724189054:LIST_PIPELINES:
+20240820-182414.1724189054:LIST_PIPELINES:Iniciando função.
+20240820-182414.1724189054:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-182414.1724189054:LIST_PIPELINES:Excluindo arquivo.
+20240820-182414.1724189054:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182414.1724189054:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-182414.1724189054:LIST_PIPELINES:Excluindo arquivo.
+20240820-182414.1724189054:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182414.1724189054:LIST_PIPELINES:GET dados de paginação.
+20240820-182417.1724189057:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-182417.1724189057:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-182417.1724189057:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-182418.1724189058:LIST_PIPELINES:       11
+20240820-182418.1724189058:LIST_PIPELINES:Função finalizada.
+20240820-182418.1724189058:FIND_CAPSULE:Capsula a ser buscada: Parallel Execution List to Objects.
+20240820-182420.1724189060:FIND_CAPSULE:Total encontrado: 0.
+20240820-182420.1724189060:FIND_CAPSULE:
+20240820-182420.1724189060:FIND_CAPSULE:Função finalizada.
+20240820-182439.1724189079:MAIN:Iniciando processo de busca da capsula: [parallel-execution-list-to-objects].
+20240820-182439.1724189079:FIND_CAPSULE:
+20240820-182439.1724189079:FIND_CAPSULE:Iniciando função.
+20240820-182439.1724189079:FIND_CAPSULE:Verifica se precisa chamar a função list_pipelines().
+20240820-182439.1724189079:FIND_CAPSULE:Chamando a função -> list_pipelines().
+20240820-182439.1724189079:LIST_PIPELINES:
+20240820-182439.1724189079:LIST_PIPELINES:Iniciando função.
+20240820-182439.1724189079:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-182439.1724189079:LIST_PIPELINES:Excluindo arquivo.
+20240820-182439.1724189079:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182439.1724189079:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-182439.1724189079:LIST_PIPELINES:Excluindo arquivo.
+20240820-182439.1724189079:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182439.1724189079:LIST_PIPELINES:GET dados de paginação.
+20240820-182442.1724189082:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-182442.1724189082:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-182442.1724189082:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-182443.1724189083:LIST_PIPELINES:       11
+20240820-182443.1724189083:LIST_PIPELINES:Função finalizada.
+20240820-182443.1724189083:FIND_CAPSULE:Capsula a ser buscada: parallel-execution-list-to-objects.
+20240820-182444.1724189084:FIND_CAPSULE:Pipeline encontrado: poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.
+20240820-182445.1724189085:FIND_CAPSULE:Pipeline encontrado: sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.
+20240820-182445.1724189085:FIND_CAPSULE:Total encontrado: 2.
+20240820-182445.1724189085:FIND_CAPSULE:
+20240820-182445.1724189085:FIND_CAPSULE:Função finalizada.
+20240820-182629.1724189189:MAIN:Iniciando processo de busca da capsula: [parallel-execution-list-to-objects].
+20240820-182629.1724189189:FIND_CAPSULE:
+20240820-182629.1724189189:FIND_CAPSULE:Iniciando função.
+20240820-182629.1724189189:FIND_CAPSULE:Verifica se precisa chamar a função list_pipelines().
+20240820-182629.1724189189:FIND_CAPSULE:Chamando a função -> list_pipelines().
+20240820-182629.1724189189:LIST_PIPELINES:
+20240820-182629.1724189189:LIST_PIPELINES:Iniciando função.
+20240820-182629.1724189189:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-182629.1724189189:LIST_PIPELINES:Excluindo arquivo.
+20240820-182629.1724189189:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182629.1724189189:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-182629.1724189189:LIST_PIPELINES:Excluindo arquivo.
+20240820-182629.1724189189:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182629.1724189189:LIST_PIPELINES:GET dados de paginação.
+20240820-182632.1724189192:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-182632.1724189192:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-182632.1724189192:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-182633.1724189193:LIST_PIPELINES:       11
+20240820-182633.1724189193:LIST_PIPELINES:Função finalizada.
+20240820-182633.1724189193:FIND_CAPSULE:Capsula a ser buscada: parallel-execution-list-to-objects.
+20240820-182634.1724189194:FIND_CAPSULE:Pipeline encontrado: poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.
+20240820-182635.1724189195:FIND_CAPSULE:Pipeline encontrado: sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.
+20240820-182635.1724189195:FIND_CAPSULE:Total encontrado: 2.
+20240820-182635.1724189195:FIND_CAPSULE:
+20240820-182635.1724189195:FIND_CAPSULE:Função finalizada.
+20240820-182820.1724189300:MAIN:Opção escolhida: --text.
+20240820-182820.1724189300:MAIN:Chamando a função -> help().
+20240820-182843.1724189323:MAIN:Opção escolhida: --find-text=poc-bv-baixa-titulos-controle-duplicidade.
+20240820-182843.1724189323:MAIN:Chamando a função -> help().
+20240820-182853.1724189333:MAIN:Iniciando processo de busca da global: [].
+20240820-182853.1724189333:FIND_TEXT:
+20240820-182853.1724189333:FIND_TEXT:Iniciando função.
+20240820-182853.1724189333:FIND_TEXT:Verifica se precisa chamar a função list_pipelines().
+20240820-182853.1724189333:FIND_GLOBAL:Chamando a função -> list_pipelines().
+20240820-182853.1724189333:LIST_PIPELINES:
+20240820-182853.1724189333:LIST_PIPELINES:Iniciando função.
+20240820-182853.1724189333:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-182853.1724189333:LIST_PIPELINES:Excluindo arquivo.
+20240820-182853.1724189333:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182853.1724189333:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-182853.1724189333:LIST_PIPELINES:Excluindo arquivo.
+20240820-182853.1724189333:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-182853.1724189333:LIST_PIPELINES:GET dados de paginação.
+20240820-182856.1724189336:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-182856.1724189336:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-182856.1724189336:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-182857.1724189337:LIST_PIPELINES:       11
+20240820-182857.1724189337:LIST_PIPELINES:Função finalizada.
+20240820-182857.1724189337:FIND_TEXT:Global a ser buscada: .
+20240820-182858.1724189338:FIND_TEXT:Pipeline encontrado: evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.
+20240820-182858.1724189338:FIND_TEXT:Pipeline encontrado: evt-bv-notifica-parceiro|0c2209f8-ca9a-4467-8646-09698a66c073|1.7|false.
+20240820-182858.1724189338:FIND_TEXT:Pipeline encontrado: poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.
+20240820-182858.1724189338:FIND_TEXT:Pipeline encontrado: sch-bv-busca-clientes-notificacao|470dafd0-8d7c-48a3-90fb-af2a259e0337|1.17|false.
+20240820-182859.1724189339:FIND_TEXT:Pipeline encontrado: sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.
+20240820-182859.1724189339:FIND_TEXT:Total encontrado: 5.
+20240820-182859.1724189339:FIND_TEXT:
+20240820-182859.1724189339:FIND_TEXT:Função finalizada.
+20240820-183012.1724189412:MAIN:Iniciando processo de busca da global: [].
+20240820-183012.1724189412:FIND_TEXT:
+20240820-183012.1724189412:FIND_TEXT:Iniciando função.
+20240820-183012.1724189412:FIND_TEXT:Verifica se precisa chamar a função list_pipelines().
+20240820-183012.1724189412:FIND_GLOBAL:Chamando a função -> list_pipelines().
+20240820-183012.1724189412:LIST_PIPELINES:
+20240820-183012.1724189412:LIST_PIPELINES:Iniciando função.
+20240820-183012.1724189412:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.
+20240820-183012.1724189412:LIST_PIPELINES:Excluindo arquivo.
+20240820-183012.1724189412:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-183012.1724189412:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.
+20240820-183012.1724189412:LIST_PIPELINES:Excluindo arquivo.
+20240820-183012.1724189412:LIST_PIPELINES:Arquivo excluido com sucesso.
+20240820-183012.1724189412:LIST_PIPELINES:GET dados de paginação.
+20240820-183014.1724189414:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.
+20240820-183014.1724189414:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.
+20240820-183015.1724189415:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].
+20240820-183016.1724189416:LIST_PIPELINES:       11
+20240820-183016.1724189416:LIST_PIPELINES:Função finalizada.
+20240820-183016.1724189416:FIND_TEXT:Global a ser buscada: .
+20240820-183017.1724189417:FIND_TEXT:Pipeline encontrado: evt-bv-busca-titulos-baixados|b30b4a7f-bfd0-4eac-b3d4-fe985ea5af28|1.44|false.
+20240820-183017.1724189417:FIND_TEXT:Pipeline encontrado: evt-bv-notifica-parceiro|0c2209f8-ca9a-4467-8646-09698a66c073|1.7|false.
+20240820-183017.1724189417:FIND_TEXT:Pipeline encontrado: poc-bv-busca-titulos-baixados|32fc57cb-22f6-4959-a68c-e75e2d3b95cd|1.0|false.
+20240820-183018.1724189418:FIND_TEXT:Pipeline encontrado: sch-bv-busca-clientes-notificacao|470dafd0-8d7c-48a3-90fb-af2a259e0337|1.17|false.
+20240820-183018.1724189418:FIND_TEXT:Pipeline encontrado: sch-bv-reporte|68082bb8-589f-4e87-8f56-0c08c4a87b8f|1.23|false.
+20240820-183018.1724189418:FIND_TEXT:Total encontrado: 5.
+20240820-183018.1724189418:FIND_TEXT:
+20240820-183018.1724189418:FIND_TEXT:Função finalizada.

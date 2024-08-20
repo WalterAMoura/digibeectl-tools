@@ -2,15 +2,16 @@
 #
 # Autor: Walter Moura
 # Data Criacao: 01/08/2022
-# Data Modificacao: 
+# Data Modificacao: 10/07/2024
 #
 # Script usado para interagir com digibeectl de forma mais controlada
 
 # Definições de variaveis 'globais'
 
 # Dados de usuário
-USERACTUAL=$(grep $EUID /etc/group | awk -F ":" '{print $1}')
-PATH_USER="/home/$USERACTUAL/Documentos/digibeectl"
+#USERACTUAL=$(grep $EUID /etc/group | awk -F ":" '{print $1}')
+USERACTUAL=$(whoami)
+PATH_USER="/Users/$USERACTUAL/Documents/Digibee/digibeectl-tools"
 PATH_BKP="$PATH_USER/backup"
 PATH_LOG="$PATH_USER/log"
 
@@ -208,9 +209,9 @@ function read_list_pipelines(){
     echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_PIPELINES:Iniciando função." >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_PIPELINES:Chamando a função -> list_pipelines()." >> $LOG
     list_pipelines
-    printf '\n\n%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '\n\n%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
     printf '%-40s|%-40s|%-10s|%s\n' "NAME" "PIPELINE-ID" "VERSION" "ARCHIVED"
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
     IFS=" "
     echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_PIPELINES:Exibir na tela lista de pipelines." >> $LOG
     while read name pipelineId version archived;
@@ -219,7 +220,7 @@ function read_list_pipelines(){
         echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_PIPELINES:$(printf '%s|%s|%s|%s' $name $pipelineId $version $archived)." >> $LOG
     done < $OUTPUT_FILE_LIST_PIPELINES
 
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
 
     echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_PIPELINES:" >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_PIPELINES:Função finalizada." >> $LOG
@@ -235,9 +236,9 @@ function find_text(){
         list_pipelines
     fi
 
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
     printf '%-40s|%-40s|%-10s|%s\n' "NAME" "PIPELINE-ID" "VERSION" "ARCHIVED"
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
     labelText=$labelText
 
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_TEXT:Global a ser buscada: $global." >> $LOG
@@ -253,9 +254,9 @@ function find_text(){
         #printf '%-40s|%-40s|%-10s|%s\n' $name $pipelineId $version $archived
         #break
     done < $OUTPUT_FILE_LIST_PIPELINES
-    printf '%s|%s\n' $(seq -s '-' 93 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s\n' $(seq -s '-' 92 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
     printf '%-92s|%s\n' "TOTAL ENCONTRADO" "$x"
-    printf '%s|%s\n' $(seq -s '-' 93 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s\n' $(seq -s '-' 92 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
 
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_TEXT:Total encontrado: $x." >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_TEXT:" >> $LOG
@@ -273,9 +274,9 @@ function find_global(){
         list_pipelines
     fi
 
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) > $TEMP_OUTPUT_FIND
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) > $TEMP_OUTPUT_FIND
     printf '%-40s|%-40s|%-10s|%s\n' "NAME" "PIPELINE-ID" "VERSION" "ARCHIVED" >> $TEMP_OUTPUT_FIND
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) >> $TEMP_OUTPUT_FIND
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) >> $TEMP_OUTPUT_FIND
     global=$labelGlobal
 
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_GLOBAL:Global a ser buscada: $global." >> $LOG
@@ -304,9 +305,9 @@ function find_global(){
 
     cat $TEMP_OUTPUT_FIND
 
-    printf '%s|%s\n' $(seq -s '-' 93 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s\n' $(seq -s '-' 92 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
     printf '%-92s|%s\n' "TOTAL ENCONTRADO" "$x"
-    printf '%s|%s\n' $(seq -s '-' 93 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s\n' $(seq -s '-' 92 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
 
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_GLOBAL:Total encontrado: $x." >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_GLOBAL:" >> $LOG
@@ -354,9 +355,9 @@ function find_capsule(){
         list_pipelines
     fi
 
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) > $TEMP_OUTPUT_FIND
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) > $TEMP_OUTPUT_FIND
     printf '%-40s|%-40s|%-10s|%s\n' "NAME" "PIPELINE-ID" "VERSION" "ARCHIVED" >> $TEMP_OUTPUT_FIND
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) >> $TEMP_OUTPUT_FIND
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) >> $TEMP_OUTPUT_FIND
 
     capsule=$labelCapsule
     cap=$lbCapsule
@@ -387,9 +388,9 @@ function find_capsule(){
 
     cat $TEMP_OUTPUT_FIND
 
-    printf '%s|%s\n' $(seq -s '-' 93 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s\n' $(seq -s '-' 92 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
     printf '%-92s|%s\n' "TOTAL ENCONTRADO" "$x"
-    printf '%s|%s\n' $(seq -s '-' 93 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s\n' $(seq -s '-' 92 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
 
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_CAPSULE:Total encontrado: $x." >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_CAPSULE:" >> $LOG
@@ -443,9 +444,9 @@ function find_account(){
     #printf '%-40s|%-40s|%-10s|%s\n' "NAME" "PIPELINE-ID" "VERSION" "ARCHIVED"
     #printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
 
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) > $TEMP_OUTPUT_FIND
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) > $TEMP_OUTPUT_FIND
     printf '%-40s|%-40s|%-10s|%s\n' "NAME" "PIPELINE-ID" "VERSION" "ARCHIVED" >> $TEMP_OUTPUT_FIND
-    printf '%s|%s|%s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) >> $TEMP_OUTPUT_FIND
+    printf '%s|%s|%s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) >> $TEMP_OUTPUT_FIND
     
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_ACCOUNT:Account a ser buscada: $labelAccount." >> $LOG
     x=0
@@ -471,9 +472,9 @@ function find_account(){
     printf '%s\n%s\n\n' "BUSCANDO ACCOUNT: $labelAccount" "LENDO PIPELINES: 100.00%"
 
     cat $TEMP_OUTPUT_FIND
-    printf '%s|%s\n' $(seq -s '-' 93 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s\n' $(seq -s '-' 92 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
     printf '%-92s|%s\n' "TOTAL ENCONTRADO" "$x"
-    printf '%s|%s\n' $(seq -s '-' 93 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:])
+    printf '%s|%s\n' $(seq -s '-' 92 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:])
 
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_ACCOUNT:Total encontrado: $x." >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):FIND_ACCOUNT:" >> $LOG
@@ -515,14 +516,14 @@ function read_list_deployment(){
     echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_DEPLOYMENT:Iniciando função." >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_DEPLOYMENT:Chamando a função -> list_deployment()." >> $LOG
     list_deployment
-    printf '\n\n%-40s|%-40s|%-10s|%-20s|%-15s|%-15s|%-10s|%-20s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 21 | tr -d [:digit:]) $(seq -s '-' 16 | tr -d [:digit:]) $(seq -s '-' 16 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 21 | tr -d [:digit:]) $(seq -s '-' 21 | tr -d [:digit:])
+    printf '\n\n%-40s|%-40s|%-10s|%-20s|%-15s|%-15s|%-10s|%-20s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 20 | tr -d [:digit:]) $(seq -s '-' 15 | tr -d [:digit:]) $(seq -s '-' 15 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 20 | tr -d [:digit:]) $(seq -s '-' 20 | tr -d [:digit:])
     printf '%-40s|%-40s|%-10s|%-20s|%-15s|%-15s|%-10s|%-20s|%s\n' "NAME" "PIPELINE-ID" "VERSION" "STATUS" "REPLICAS" "CONSUMERS" "SIZE" "ENVIRONMENT" "RTUs"
-    printf '%-40s|%-40s|%-10s|%-20s|%-15s|%-15s|%-10s|%-20s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 21 | tr -d [:digit:]) $(seq -s '-' 16 | tr -d [:digit:]) $(seq -s '-' 16 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 21 | tr -d [:digit:]) $(seq -s '-' 21 | tr -d [:digit:])
+    printf '%-40s|%-40s|%-10s|%-20s|%-15s|%-15s|%-10s|%-20s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 20 | tr -d [:digit:]) $(seq -s '-' 15 | tr -d [:digit:]) $(seq -s '-' 15 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 20 | tr -d [:digit:]) $(seq -s '-' 20 | tr -d [:digit:])
     IFS=" "
     totalRtus=0
     z=0
     echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_DEPLOYMENT:Percorre arquivo : $OUTPUT_FILE_LIST_DEPLOYMENT_PIPELINES." >> $LOG
-    while read name pipelineId version status replicas consumers size environment;
+    while read name pipelineId version status replicas consumers size environment project;
     do  
         rtu=0
         if [ $size == "SMALL" ]; then
@@ -553,7 +554,7 @@ function read_list_deployment(){
         echo "$(date +%Y%m%d-%H%M%S.%s):READ_LIST_DEPLOYMENT:Deploys encontrados: $(printf '%s|%s|%s|%s|%s|%s|%s|%s|%s' $name $pipelineId $version $status $replicas $consumers $size $environment $rtu)." >> $LOG
         let "z = z +1"
     done < $OUTPUT_FILE_LIST_DEPLOYMENT_PIPELINES
-    printf '%-40s|%-40s|%-10s|%-20s|%-15s|%-15s|%-10s|%-20s|%s\n' $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 41 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 21 | tr -d [:digit:]) $(seq -s '-' 16 | tr -d [:digit:]) $(seq -s '-' 16 | tr -d [:digit:]) $(seq -s '-' 11 | tr -d [:digit:]) $(seq -s '-' 21 | tr -d [:digit:]) $(seq -s '-' 21 | tr -d [:digit:])
+    printf '%-40s|%-40s|%-10s|%-20s|%-15s|%-15s|%-10s|%-20s|%s\n' $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 40 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 20 | tr -d [:digit:]) $(seq -s '-' 15 | tr -d [:digit:]) $(seq -s '-' 15 | tr -d [:digit:]) $(seq -s '-' 10 | tr -d [:digit:]) $(seq -s '-' 20 | tr -d [:digit:]) $(seq -s '-' 20 | tr -d [:digit:])
     printf '\n\n%s:\t%-59s\n' "TOTAL DEPLOYMENTS" "$z"
     printf '%s:\t%-59s\n' "TOTAL RTUS" "$totalRtus"
 
@@ -810,8 +811,14 @@ function set_config(){
     echo "$(date +%Y%m%d-%H%M%S.%s):SET_CONFIG:" >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):SET_CONFIG:Iniciando função." >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):SET_CONFIG:Consultados dados de configuração do realm -> $realm." >> $LOG
-    sql=`mysql -u ${MYSQL_USER} -p${MYSQL_PASS} ${MYSQL_BD} -h ${MYSQL_HOST} -N -e "SELECT * FROM environment WHERE realm = '$realm'"`
-    RET=$?
+    if [ ${SYSDB} -eq "mysql" ]; then
+        sql=`mysql -u ${MYSQL_USER} -p${MYSQL_PASS} ${MYSQL_BD} -h ${MYSQL_HOST} -N -e "SELECT * FROM environment WHERE realm = '$realm'"`
+        RET=$?
+    else
+        sql=`sqlite3 digibeectl --cmd --safe --separator " " "SELECT * FROM environment WHERE realm = '$realm';"`
+        RET=$?
+    fi
+
     if [ $RET -eq 0 ]; then 
         realm=`echo $sql | awk -F ' ' '{print $2}'`
         secretKey=`echo $sql | awk -F ' ' '{print $3}'`

@@ -1,0 +1,6 @@
+api-bv-config                          afe16366-6762-4e65-8e27-c6afebb68653      1.21         Deployed      1/1           10             SMALL       prod             Baixa Títulos Notificação
+evt-bv-busca-titulos-baixados          db2579be-cd0f-4d84-9442-9d1df77c8709      1.44         Deployed      1/1           10             SMALL       prod             Baixa Títulos Notificação
+evt-bv-notifica-parceiro               bc6528d3-34df-4cca-b518-a9b099be4f7c      1.7          Deployed      2/2           10             SMALL       prod             Baixa Títulos Notificação
+sch-bv-busca-clientes-notificacao      e5cfff52-d810-4929-b3d2-51b09a2ce626      1.17         Deployed      1/1           1              SMALL       prod             Baixa Títulos Notificação
+sch-bv-reporte                         6b65f7f3-c3a3-4ad9-8bf5-099a2c56cf1d      1.23         Deployed      1/1           1              MEDIUM      prod             Baixa Títulos Notificação
+sch-bv-reprocessamento                 306b8bda-8972-47ed-86a3-4237f5ea10f4      1.6          Deployed      1/1           1              SMALL       prod             Comuns
