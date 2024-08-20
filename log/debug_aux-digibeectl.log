@@ -1,0 +1,163 @@
++ . /Users/walte/Documents/Digibee/digibeectl-tools/config.conf
+++ PIPELINES=deploy-onboarding.csv
+++ REALM=demo
+++ SYDB=sqlite3
+++ SQLITE_DB=digibeectl_db
+++ MYSQL_HOST=localhost
+++ MYSQL_USER=digibeectl
+++ MYSQL_PASS=digibeectl
+++ MYSQL_DB=digibeectl
++ FUNC=--list-pipelines
++ VAR_1=
++ case $FUNC in
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:MAIN:Opção escolhida: --list-pipelines.'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:MAIN:Chamando a função -> read_list_pipelines().'
++ read_list_pipelines
+++ date +%Y%m%d-%H%M%S.%s
++ echo 20240820-191006.1724191806:READ_LIST_PIPELINES:
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:READ_LIST_PIPELINES:Iniciando função.'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:READ_LIST_PIPELINES:Chamando a função -> list_pipelines().'
++ list_pipelines
+++ date +%Y%m%d-%H%M%S.%s
++ echo 20240820-191006.1724191806:LIST_PIPELINES:
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:LIST_PIPELINES:Iniciando função.'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt.'
++ '[' -e /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt ']'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:LIST_PIPELINES:Verificando se existi o arquivo: /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt.'
++ '[' -e /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt ']'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:LIST_PIPELINES:Excluindo arquivo.'
++ rm /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt
++ RET=0
++ '[' 0 -eq 0 ']'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:LIST_PIPELINES:Arquivo excluido com sucesso.'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191006.1724191806:LIST_PIPELINES:GET dados de paginação.'
+++ digibeectl get pipelines
+++ grep page
+++ cut -d - -f2
+++ sed -e s/of/-/g
+++ sed -e s/page//g
+++ cut -d - -f 1
++ currentPage=
+++ digibeectl get pipelines
+++ grep page
+++ cut -d - -f2
+++ sed -e s/of/-/g
+++ sed -e s/page//g
+++ cut -d - -f 2
++ totalPages=
++ '[' -z ']'
++ currentPage=1
++ '[' -z ']'
++ totalPages=1
+++ printf %d 1
++ totalPages=1
+++ printf %d 1
++ currentPage=1
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191105.1724191865:LIST_PIPELINES:Dados de paginação - totalPages: 1 | currentPage: 1.'
++ printf '\n'
++ x=0
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191105.1724191865:LIST_PIPELINES:Iniciando o loop para percorrer as paginas.'
++ true
++ '[' 0 -lt 1 ']'
++ echo -e '\033[01;33m[ CONSULTANDO PAGINAS - 1 de 1 ]\033[00;37m'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191105.1724191865:LIST_PIPELINES:[ CONSULTANDO PAGINAS - 1 de 1 ].'
++ '[' 0 -eq 0 ']'
++ digibeectl get pipelines --page 1
+++ cat /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt
+++ wc -l
++ n='       8'
++ cat /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt
++ grep PIPELINE-ID -A6
++ sed 1d
++ let 'x = x +1'
++ true
++ '[' 1 -lt 1 ']'
++ break
++ grep -v '^[\s\t]*$' /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt
++ cp /Users/walte/Documents/Digibee/digibeectl-tools/.tempListPipelines.txt /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt
+++ cat /Users/walte/Documents/Digibee/digibeectl-tools/.listPipelines.txt
+++ wc -l
++ TOTAL_LIST_PIPELINES='       6'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191130.1724191890:LIST_PIPELINES:        6'
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191130.1724191890:LIST_PIPELINES:Função finalizada.'
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 10
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
++ printf '\n\n%s|%s|%s|%s\n' ---------------------------------------- ---------------------------------------- ---------- ----------------------------------------
++ printf '%-40s|%-40s|%-10s|%s\n' NAME PIPELINE-ID VERSION ARCHIVED
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 10
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
++ printf '%s|%s|%s|%s\n' ---------------------------------------- ---------------------------------------- ---------- ----------------------------------------
++ IFS=' '
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191130.1724191890:READ_LIST_PIPELINES:Exibir na tela lista de pipelines.'
++ read name pipelineId version archived
++ printf '%-40s|%-40s|%-10s|%s\n' api-lg-custom d1eb16c6-7176-44fb-b799-87e4aef7a299 1.2 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' api-lg-custom d1eb16c6-7176-44fb-b799-87e4aef7a299 1.2 false
++ echo '20240820-191130.1724191890:READ_LIST_PIPELINES:api-lg-custom|d1eb16c6-7176-44fb-b799-87e4aef7a299|1.2|false.'
++ read name pipelineId version archived
++ printf '%-40s|%-40s|%-10s|%s\n' api-lg-custom 260b1f3c-2bb9-46fe-bab5-ac162ff754d0 2.3 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' api-lg-custom 260b1f3c-2bb9-46fe-bab5-ac162ff754d0 2.3 false
++ echo '20240820-191130.1724191890:READ_LIST_PIPELINES:api-lg-custom|260b1f3c-2bb9-46fe-bab5-ac162ff754d0|2.3|false.'
++ read name pipelineId version archived
++ printf '%-40s|%-40s|%-10s|%s\n' draft-walter 81927011-627e-4b44-b494-2a37d2de55c7 1.0 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' draft-walter 81927011-627e-4b44-b494-2a37d2de55c7 1.0 false
++ echo '20240820-191130.1724191890:READ_LIST_PIPELINES:draft-walter|81927011-627e-4b44-b494-2a37d2de55c7|1.0|false.'
++ read name pipelineId version archived
++ printf '%-40s|%-40s|%-10s|%s\n' evt-lg-geracao-arquivo-contabil 42e21034-e7e0-406f-8797-bac84e64be81 1.12 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' evt-lg-geracao-arquivo-contabil 42e21034-e7e0-406f-8797-bac84e64be81 1.12 false
++ echo '20240820-191130.1724191890:READ_LIST_PIPELINES:evt-lg-geracao-arquivo-contabil|42e21034-e7e0-406f-8797-bac84e64be81|1.12|false.'
++ read name pipelineId version archived
++ printf '%-40s|%-40s|%-10s|%s\n' learn-basic-course e8766f85-58b7-4cda-bfdd-0f037821dc1e 1.0 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' learn-basic-course e8766f85-58b7-4cda-bfdd-0f037821dc1e 1.0 false
++ echo '20240820-191130.1724191890:READ_LIST_PIPELINES:learn-basic-course|e8766f85-58b7-4cda-bfdd-0f037821dc1e|1.0|false.'
++ read name pipelineId version archived
++ printf '%-40s|%-40s|%-10s|%s\n' sch-lg-geracao-arquivo-contabil c88db99e-a58a-493b-bf66-7f492a9e5a02 1.3 false
+++ date +%Y%m%d-%H%M%S.%s
+++ printf '%s|%s|%s|%s' sch-lg-geracao-arquivo-contabil c88db99e-a58a-493b-bf66-7f492a9e5a02 1.3 false
++ echo '20240820-191130.1724191890:READ_LIST_PIPELINES:sch-lg-geracao-arquivo-contabil|c88db99e-a58a-493b-bf66-7f492a9e5a02|1.3|false.'
++ read name pipelineId version archived
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
+++ seq -s - 10
+++ tr -d '[:digit:]'
+++ seq -s - 40
+++ tr -d '[:digit:]'
++ printf '%s|%s|%s|%s\n' ---------------------------------------- ---------------------------------------- ---------- ----------------------------------------
+++ date +%Y%m%d-%H%M%S.%s
++ echo 20240820-191131.1724191891:READ_LIST_PIPELINES:
+++ date +%Y%m%d-%H%M%S.%s
++ echo '20240820-191131.1724191891:READ_LIST_PIPELINES:Função finalizada.'

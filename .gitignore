@@ -1,0 +1,5 @@
+.tempListPipelines.txt
+.listPipelines.txt
+.tempOutpuFind.txt
+.listDeploymentPipelines.txt
+compile-script.sh

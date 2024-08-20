@@ -54,7 +54,7 @@ function list_pipelines(){
     echo "$(date +%Y%m%d-%H%M%S.%s):LIST_PIPELINES:" >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):LIST_PIPELINES:Iniciando função." >> $LOG
     
-    echo "$(date +%Y%m%d-%H%M%S.%s):LIST_PIPELINES:Verificando se existi o arquivo: $OUTPUT_FILE_LIST_PIPELINES." >> $LOG
+    echo "$(date +%Y%m%d-%H%M%S.%s):LIST_PIPELINES:Verificando se existe o arquivo: $OUTPUT_FILE_LIST_PIPELINES." >> $LOG
     if [ -e $OUTPUT_FILE_LIST_PIPELINES ]; then
         echo "$(date +%Y%m%d-%H%M%S.%s):LIST_PIPELINES:Excluindo arquivo." >> $LOG
         rm $OUTPUT_FILE_LIST_PIPELINES
@@ -65,7 +65,7 @@ function list_pipelines(){
             echo "$(date +%Y%m%d-%H%M%S.%s):LIST_PIPELINES:Error ao excluir arquivo." >> $LOG
         fi
     fi
-    echo "$(date +%Y%m%d-%H%M%S.%s):LIST_PIPELINES:Verificando se existi o arquivo: $TEMP_OUTPUT_FILE_LIST_PIPELINES." >> $LOG
+    echo "$(date +%Y%m%d-%H%M%S.%s):LIST_PIPELINES:Verificando se existe o arquivo: $TEMP_OUTPUT_FILE_LIST_PIPELINES." >> $LOG
     if [ -e $TEMP_OUTPUT_FILE_LIST_PIPELINES ]; then
         echo "$(date +%Y%m%d-%H%M%S.%s):LIST_PIPELINES:Excluindo arquivo." >> $LOG
         rm $TEMP_OUTPUT_FILE_LIST_PIPELINES
@@ -131,7 +131,7 @@ function full_list_pipeline(){
     echo "$(date +%Y%m%d-%H%M%S.%s):FULL_LIST_PIPELINES:" >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):FULL_LIST_PIPELINES:Iniciando função." >> $LOG
     
-    echo "$(date +%Y%m%d-%H%M%S.%s):FULL_LIST_PIPELINES:Verificando se existi o arquivo: $OUTPUT_FILE_FULL_LIST_PIPELINES." >> $LOG
+    echo "$(date +%Y%m%d-%H%M%S.%s):FULL_LIST_PIPELINES:Verificando se existe o arquivo: $OUTPUT_FILE_FULL_LIST_PIPELINES." >> $LOG
     if [ -e $OUTPUT_FILE_FULL_LIST_PIPELINES ]; then
         echo "$(date +%Y%m%d-%H%M%S.%s):FULL_LIST_PIPELINES:Excluindo arquivo." >> $LOG
         rm $OUTPUT_FILE_FULL_LIST_PIPELINES
@@ -142,7 +142,7 @@ function full_list_pipeline(){
             echo "$(date +%Y%m%d-%H%M%S.%s):FULL_LIST_PIPELINES:Error ao excluir arquivo." >> $LOG
         fi
     fi
-    echo "$(date +%Y%m%d-%H%M%S.%s):FULL_LIST_PIPELINES:Verificando se existi o arquivo: $TEMP_OUTPUT_FULL_FILE_LIST_PIPELINES." >> $LOG
+    echo "$(date +%Y%m%d-%H%M%S.%s):FULL_LIST_PIPELINES:Verificando se existe o arquivo: $TEMP_OUTPUT_FULL_FILE_LIST_PIPELINES." >> $LOG
     if [ -e $TEMP_OUTPUT_FULL_FILE_LIST_PIPELINES ]; then
         echo "$(date +%Y%m%d-%H%M%S.%s):FULL_LIST_PIPELINES:Excluindo arquivo." >> $LOG
         rm $TEMP_OUTPUT_FULL_FILE_LIST_PIPELINES
@@ -570,7 +570,7 @@ function list_deployment(){
     if [ -z $environment ]; then
         environment=test
     fi
-    echo "$(date +%Y%m%d-%H%M%S.%s):LIST_DEPLOYMENT:Verificando se existi o arquivo: $OUTPUT_FILE_LIST_DEPLOYMENT_PIPELINES." >> $LOG
+    echo "$(date +%Y%m%d-%H%M%S.%s):LIST_DEPLOYMENT:Verificando se existe o arquivo: $OUTPUT_FILE_LIST_DEPLOYMENT_PIPELINES." >> $LOG
     if [ -e $OUTPUT_FILE_LIST_DEPLOYMENT_PIPELINES ]; then
         echo "$(date +%Y%m%d-%H%M%S.%s):LIST_DEPLOYMENT:Excluindo arquivo." >> $LOG
         rm $OUTPUT_FILE_LIST_DEPLOYMENT_PIPELINES
@@ -812,10 +812,10 @@ function set_config(){
     echo "$(date +%Y%m%d-%H%M%S.%s):SET_CONFIG:Iniciando função." >> $LOG
     echo "$(date +%Y%m%d-%H%M%S.%s):SET_CONFIG:Consultados dados de configuração do realm -> $realm." >> $LOG
     if [ ${SYSDB} -eq "mysql" ]; then
-        sql=`mysql -u ${MYSQL_USER} -p${MYSQL_PASS} ${MYSQL_BD} -h ${MYSQL_HOST} -N -e "SELECT * FROM environment WHERE realm = '$realm'"`
+        sql=`mysql -u ${MYSQL_USER} -p${MYSQL_PASS} ${MYSQL_DB} -h ${MYSQL_HOST} -N -e "SELECT * FROM environment WHERE realm = '$realm'"`
         RET=$?
     else
-        sql=`sqlite3 digibeectl --cmd --safe --separator " " "SELECT * FROM environment WHERE realm = '$realm';"`
+        sql=`sqlite3 ${SQLITE_DB} --cmd --safe --separator " " "SELECT * FROM environment WHERE realm = '$realm';"`
         RET=$?
     fi
 
