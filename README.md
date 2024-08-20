@@ -1,6 +1,3 @@
-Aqui está um `README.md` mais detalhado que reflete as informações fornecidas sobre o uso dos parâmetros no script `aux-digibeectl.sh`:
-
-```markdown
 # DigibeeCTL Automation Script
 
 Este repositório contém um script shell (`aux-digibeectl.sh`) criado para interagir com a ferramenta `digibeectl`, automatizando a gestão de pipelines no ambiente Digibee.
@@ -146,4 +143,3 @@ Contribuições são bem-vindas! Se você quiser contribuir para o projeto, faç
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-```
