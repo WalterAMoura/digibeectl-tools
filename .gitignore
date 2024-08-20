@@ -3,3 +3,15 @@
 .tempOutpuFind.txt
 .listDeploymentPipelines.txt
 compile-script.sh
+tokens/accenture-lab-token.json
+tokens/amedigital-token.json
+tokens/bv-token.json
+tokens/csu-token.json
+tokens/enablement-token.json
+tokens/lugardegente-token.json
+tokens/n26-token.json
+tokens/poc-dgb-token.json
+tokens/propay-token.json
+tokens/sofisa-token.json
+tokens/sonda-token.json
+tokens/training-token.json
