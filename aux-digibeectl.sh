@@ -2,16 +2,14 @@
 #
 # Autor: Walter Moura
 # Data Criacao: 01/08/2022
-# Data Modificacao: 10/07/2024
+# Data Modificacao: 27/08/2024
 #
 # Script usado para interagir com digibeectl de forma mais controlada
 
 # Definições de variaveis 'globais'
 
 # Dados de usuário
-#USERACTUAL=$(grep $EUID /etc/group | awk -F ":" '{print $1}')
-USERACTUAL=$(whoami)
-PATH_USER="/Users/$USERACTUAL/Documents/Digibee/digibeectl-tools"
+PATH_USER=$(pwd)
 PATH_BKP="$PATH_USER/backup"
 PATH_LOG="$PATH_USER/log"
 
